@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <% include partials/head %>
+    <link href="/stylesheets/category.css" rel="stylesheet" type="text/css" />
+    <title>JS toolkit - <%= title %></title>
+  </head>
+
+  <body>
+    <% include partials/header %>
+
+    <main>
+      <h1><%= title %></h1>
+      <ul>
+      <% categories.forEach(function (category) { %>
+        <li> <%= category.title %> </li>
+      <% }); %>
+      </li>
+    </main>
+
+    <% include partials/footer %>
+  </body>
+</html>

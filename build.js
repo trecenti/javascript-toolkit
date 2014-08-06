@@ -1,63 +1,88 @@
-var Metalsmith = require('metalsmith');
-var render = require('consolidate').handlebars;
+var Metalsmith = require('metalsmith')
+  , beautify = require('metalsmith-beautify')
+  , ejs = require('ejs')
+  , fs = require('fs')
+  , sass = require('node-sass');
 
-var index = function(files, metalsmith, done) {
-  var metadata = metalsmith.metadata();
+var templates = {};
 
-  render('templates/index.html', metadata, function (error, content) {
-    if (error) { done(error); }
-    files['index.html'] = { contents: content }
-    done();
-  });
-};
+templates.home = ejs.compile(
+  fs.readFileSync('./templates/home.ejs', 'UTF-8'),
+  { filename: './templates/home.ejs' }
+);
 
-var project = function(files, metalsmith, done) {
-  var metadata = metalsmith.metadata();
+templates.category = ejs.compile(
+  fs.readFileSync('./templates/category.ejs', 'UTF-8'),
+  { filename: './templates/category.ejs' }
+);
 
-  Object.keys(metadata.categories).forEach(function (category) {
-    Object.keys(metadata.categories[category]).forEach(function (subcategory) {
-      Object.keys(metadata.categories[category][subcategory]).forEach(function (project) {
-        var entry = metadata.categories[category][subcategory][project];
-        var output = category.replace(' ','-') + '/' + subcategory.replace(' ','-') + '/' + project + '.html';
+templates.tool = ejs.compile(
+  fs.readFileSync('./templates/tool.ejs', 'UTF-8'),
+  { filename: './templates/tool.ejs' }
+);
 
-        render('templates/project.html', entry, function (error, content) {
-          if (error) { done(error); }
-          files[output] = { contents: content };
-          done();
-        });
-      });
-    });
-  });
-};
+function createFileFromTemplate(data, template) {
+  return { contents: template(data) };
+}
 
-var convertToMetadata = function (files, metalsmith, done) {
-  var metadata = metalsmith.metadata();
-  metadata.categories = metadata.categories || {};
+function ejsTemplates(files, metalsmith, done) {
+  Object.keys(files).forEach(function (file) {
+    var data, htmlFile;
 
-  Object.keys(files).forEach(function (filePath) {
-    var content = files[filePath].contents.toString();
-    var fileData = JSON.parse(content);
+    if (!/\.json$/.test(file)) {
+      return;
+    }
 
-    var tags = filePath.split('/');
-    var category = tags[0].replace('-',' ');
-    var subcategory = tags[1].replace('-', ' ');
-    var entry = tags[2].split('.')[0];
+    data = JSON.parse(files[file].contents);
+    htmlFile = file.replace(/\.json$/, '.html');
 
-    metadata.categories[category] = metadata.categories[category] || {};
-    metadata.categories[category][subcategory] = metadata.categories[category][subcategory] || {};
-    metadata.categories[category][subcategory][entry] = fileData;
-
-    delete files[filePath];
+    if (file === 'index.json') {
+      files[htmlFile] = createFileFromTemplate(data, templates.home);
+    } else if (file.split('/').length === 2) {
+      files[htmlFile] = createFileFromTemplate(data, templates.category);
+    } else {
+      files[htmlFile] = createFileFromTemplate(data, templates.tool);
+    }
   });
 
   done();
 };
 
+function sassProcessor(files, metalsmith, done) {
+  Object.keys(files).forEach(function (file) {
+    var scss;
+
+    if (!/\.scss$/.test(file) || /\/_.*\.scss$/.test(file)) {
+      return;
+    }
+
+    scss = files[file].contents;
+    var newFile = file.replace(/\.scss$/, '.css').replace(/sass/, 'stylesheets');
+    files[newFile] = {
+      contents: sass.renderSync({ data: scss, includePaths: ['./src/sass'] })
+    };
+  });
+
+  done();
+}
+
+function cleaner(files, metalsmith, done) {
+  Object.keys(files).forEach(function (file) {
+    if (!/\.html$|\.css$/.test(file)) {;
+      delete files[file];
+    }
+  });
+
+  done();
+}
+
 Metalsmith(__dirname)
-.destination('./build')
-.use(convertToMetadata)
-.use(index)
-.use(project)
-.build(function (error, files ) {
-  if (error) { console.log(arguments); }
-});
+  .source('./src')
+  .destination('./build')
+  .use(ejsTemplates)
+  .use(sassProcessor)
+  .use(cleaner)
+  .use(beautify({ css: true, html: true, indent_size: 2, indent_char: ' ', preserve_newlines: false }))
+  .build(function (error, files ) {
+    if (error) { console.log(error, files); }
+  });
