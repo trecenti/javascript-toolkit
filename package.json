@@ -1,0 +1,31 @@
+{
+  "name": "js-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "consolidate": "^0.10.0",
+    "handlebars": "^2.0.0-alpha.4",
+    "metalsmith": "^0.9.0",
+    "metalsmith-templates": "^0.5.2"
+  },
+  "devDependencies": {
+    "consolidate": "^0.10.0",
+    "handlebars": "^2.0.0-alpha.4",
+    "metalsmith": "^0.9.0",
+    "node-watch": "^0.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThoughtWorksInc/js-toolkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThoughtWorksInc/js-toolkit/issues"
+  },
+  "homepage": "https://github.com/ThoughtWorksInc/js-toolkit"
+}
