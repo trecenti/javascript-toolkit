@@ -7,18 +7,28 @@
 <body>
 <h1> Welcome </h1>
 <main>
+<ul>
+  {{#each categories}}
+  <li>
+  <h2>{{@key}}</h2>
   <ul>
-    {{#each categories }}
+    {{#each this}}
     <li>
-    <h2>{{ title }}</h2>
+    <h3>{{@key}}</h3>
     <ul>
-      {{#each categories }}
-      <li>{{ title }}</li>
+      {{#each this}}
+      <li>
+      <h4>{{@key}}</h4>
+      <p>{{description}}</p>
+      </li>
       {{/each}}
-    </ul>
+    </ul
     </li>
     {{/each}}
   </ul>
+  </li>
+  {{/each}}
+</ul>
 </main>
 
 </body>
