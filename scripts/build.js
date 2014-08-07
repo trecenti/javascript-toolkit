@@ -76,7 +76,7 @@ function cleaner(files, metalsmith, done) {
   done();
 }
 
-Metalsmith(__dirname)
+Metalsmith(__dirname + '/..')
   .source('./src')
   .destination('./build')
   .use(ejsTemplates)
