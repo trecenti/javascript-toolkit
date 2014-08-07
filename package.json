@@ -2,7 +2,7 @@
   "name": "js-toolkit",
   "version": "1.0.0",
   "description": "",
-  "main": "build.js",
+  "main": "scripts/build.js",
   "dependencies": {},
   "devDependencies": {
     "metalsmith": "^0.9.0",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node scripts/watch",
     "build": "node scripts/build",
-    "serve": "node scripts/serve"
+    "start": "node scripts/serve"
   },
   "repository": {
     "type": "git",

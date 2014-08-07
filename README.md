@@ -5,7 +5,7 @@ npm run watch
 ```
 
 ```bash
-npm run serve
+npm start
 ```
 
 
