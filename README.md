@@ -1,13 +1,16 @@
 ## Development
 
 ```bash
-node watch.js
+npm run watch
 ```
 
-Open `build/index.html` and refresh on changes
+```bash
+npm start
+```
+
 
 ## Build
 
 ```bash
-node build.js
+npm run build
 ```
