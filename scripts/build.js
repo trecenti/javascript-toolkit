@@ -69,7 +69,7 @@ function sassProcessor(files, metalsmith, done) {
 
 function cleaner(files, metalsmith, done) {
   Object.keys(files).forEach(function (file) {
-    if (!/\.html$|\.css$/.test(file)) {;
+    if (!/\.html$|\.css$|CNAME$/.test(file)) {;
       delete files[file];
     }
   });
