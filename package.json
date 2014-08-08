@@ -12,14 +12,15 @@
     "node-sass": "^0.9.3",
     "morgan": "^1.2.2",
     "express": "^4.8.1",
-    "gh-pages": "^0.2.0" 
+    "gh-pages": "^0.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node scripts/watch",
     "build": "node scripts/build",
     "start": "node scripts/serve",
-    "publish": "node scripts/build && node scripts/publish"
+    "publish": "node scripts/publish",
+    "buildAndPublish": "npm run build && npm run publish"
   },
   "repository": {
     "type": "git",
