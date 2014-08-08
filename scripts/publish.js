@@ -5,8 +5,6 @@ var path = require('path');
 
 ghpages.publish(path.join(__dirname, '../build'), {
   logger: function(message) {
-    // console.log(message);
-    // what logger are we using?
   }
 }, function(err) { 
   if (err) {
