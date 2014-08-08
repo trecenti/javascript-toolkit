@@ -1,16 +1,17 @@
 'use strict';
 
-var ghpages = require('gh-pages');
-var path = require('path');
+var ghpages = require('gh-pages')
+  , path = require('path')
+  , options = {};
 
-ghpages.publish(path.join(__dirname, '../build'), {
-  logger: function(message) {
-    
-  }
-}, function(err) { 
+options.logger = console.log.bind(this);
+
+function callback(err) {
   if (err) {
     console.error('Error publishing to gh-pages', err);
   } else {
-     console.log('Successfully published to gh-pages');
+    console.log('Successfully published to gh-pages');
   }
-});
+}
+
+ghpages.publish(path.join(__dirname, '../build'), options, callback);
