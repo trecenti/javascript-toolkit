@@ -22,3 +22,9 @@ Remember whatever is there is going public (at http://thoughtworksinc.github.io/
 ```bash
 npm run publish
 ```
+
+a helper Build & Publish
+
+```bash
+npm run buildAndPublish
+```
