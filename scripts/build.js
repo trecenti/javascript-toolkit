@@ -2,7 +2,8 @@ var Metalsmith = require('metalsmith')
   , beautify = require('metalsmith-beautify')
   , ejs = require('ejs')
   , fs = require('fs')
-  , sass = require('node-sass');
+  , sass = require('node-sass')
+  ;
 
 var templates = {};
 
@@ -68,7 +69,7 @@ function sassProcessor(files, metalsmith, done) {
 
 function cleaner(files, metalsmith, done) {
   Object.keys(files).forEach(function (file) {
-    if (!/\.html$|\.css$/.test(file)) {;
+    if (!/\.html$|\.css$|CNAME$/.test(file)) {;
       delete files[file];
     }
   });
