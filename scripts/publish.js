@@ -5,10 +5,11 @@ var path = require('path');
 
 ghpages.publish(path.join(__dirname, '../build'), {
   logger: function(message) {
+    
   }
 }, function(err) { 
   if (err) {
-    console.log('Error publishing to gh-pages', err);
+    console.error('Error publishing to gh-pages', err);
   } else {
      console.log('Successfully published to gh-pages');
   }
