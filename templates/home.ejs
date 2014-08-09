@@ -21,10 +21,10 @@
       </section>
 
       <% categories.forEach(function (category) { %>
-        <section class="category" id="<%= category.title.toLowerCase().replace(/\s/g, '-') %>">
+        <section id="<%= category.title.toLowerCase().replace(/\s/g, '-') %>">
           <h1><%= category.title %></h1>
           <p><%= category.description %></p>
-          <section class="categories">
+          <section class="sub-categories">
             <% category.categories.forEach(function (subCategory) { %>
               <article>
                 <h3><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>"><%= subCategory.title %></a></h3>

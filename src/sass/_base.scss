@@ -1,5 +1,6 @@
 @import "modules/reset";
 @import "modules/typography";
+@import "modules/dimensions";
 @import "modules/colors";
 @import "modules/headings";
 @import "modules/lists";
@@ -15,11 +16,28 @@ body {
 }
 
 header, footer {
-  padding: 20px;
+  padding: $default-spacing;
 }
 
 main {
-  padding: 20px 0;
+  section {
+    box-sizing: border-box;
+    padding: $default-spacing;
+
+    & + section {
+      border-top: 1px solid $light-grey;
+    }
+
+    & > h1,
+    & > h2,
+    & > p {
+      margin-bottom: $default-spacing / 2;
+    }
+
+    p {
+      color: $earth-light-grey;
+    }
+  }
 }
 
 header {
@@ -28,6 +46,7 @@ header {
 }
 
 footer {
+  text-align: center;
   background-color: $earth-light-grey;
-  color: white;
+  color: $white;
 }
