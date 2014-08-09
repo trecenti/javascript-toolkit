@@ -10,8 +10,28 @@
     <% include partials/header %>
 
     <main>
-      <h1><%= title %></h1>
-      </li>
+      <section>
+        <p><a href=".">&lt;&nbsp;Back</a></p>
+        <h1><%= title %></h1>
+        <p><%= description %></p>
+      </section>
+      <section>
+        <h2>Links</h2>
+        <ul>
+          <% links.forEach(function(link) { %>
+            <li>
+              <label><%= link.name %></label>
+              <a href="<%= link.href %>" target="_blank"><%= link.href %></a>
+            </li>
+          <% }); %>
+        </ul>
+      </section>
+      <section>
+        <h2>Examples</h2>
+        <% examples.forEach(function(example) { %>
+            <code><%= example %></code>
+        <% }); %>
+      </section>
     </main>
 
     <% include partials/footer %>

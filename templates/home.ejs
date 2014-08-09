@@ -21,7 +21,8 @@
       </section>
 
       <% categories.forEach(function (category) { %>
-        <section id="<%= category.title.toLowerCase().replace(/\s/g, '-') %>">
+        <section>
+          <a id="<%= category.title.toLowerCase().replace(/\s/g, '-') %>"></a>
           <h1><%= category.title %></h1>
           <p><%= category.description %></p>
           <section class="sub-categories">

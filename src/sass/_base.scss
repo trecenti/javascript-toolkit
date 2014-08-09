@@ -17,6 +17,13 @@ body {
 
 header, footer {
   padding: $default-spacing;
+  a {
+    color: $black;
+
+    &:hover {
+      color: $black;
+    }
+  }
 }
 
 main {
@@ -26,6 +33,13 @@ main {
 
     & + section {
       border-top: 1px solid $light-grey;
+    }
+
+    & > a[id] {
+      display: block;
+      top: (-$default-spacing - 68px);
+      visibility: hidden;
+      position: relative;
     }
 
     & > h1,
