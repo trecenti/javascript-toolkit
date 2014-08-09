@@ -1,0 +1,22 @@
+a {
+  color: $black;
+
+  &, &:active, &:visited, &:hover {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3 {
+  a {
+    color: $cool-sky-blue;
+
+    &:hover {
+      text-decoration: none;
+      color: $cool-light-blue;
+    }
+  }
+}

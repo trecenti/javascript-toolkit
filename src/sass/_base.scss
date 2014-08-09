@@ -1,5 +1,33 @@
-@import "typography";
-@import "colors";
+@import "modules/reset";
+@import "modules/typography";
+@import "modules/colors";
+@import "modules/headings";
+@import "modules/lists";
+@import "modules/links";
+
+@import "mixins";
 
 body {
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  color: $black;
+  background-color: $white;
+}
+
+header, footer {
+  padding: 20px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+header {
+  border-bottom: 1px solid $light-grey;
+
+}
+
+footer {
+  background-color: $earth-light-grey;
+  color: white;
 }
