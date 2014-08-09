@@ -39,8 +39,8 @@ function ejsTemplates(files, metalsmith, done) {
 
     if (file === 'index.json') {
       files[htmlFile] = createFileFromTemplate(data, templates.home);
-    } else if (file.split('/').length === 2) {
-      files[htmlFile] = createFileFromTemplate(data, templates.category);
+    } else if (file.split('/').length === 3 && /.*index\.json$/.test(file)) {
+      files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.category);
     } else {
       files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.tool);
     }
