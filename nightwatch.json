@@ -30,6 +30,9 @@
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
+    },
+    "functional": {
+      "launch_url" : "http://staging-js-toolkit.herokuapp.com"
     }
   }
 }

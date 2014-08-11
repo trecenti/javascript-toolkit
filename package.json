@@ -21,7 +21,7 @@
   },
   "scripts": {
     "postinstall": "node scripts/build",
-    "test": "node bin/nightwatch --group tests",
+    "test": "node bin/nightwatch --group tests --env ${TEST_ENV-default}",
     "watch": "node scripts/watch",
     "build": "node scripts/build",
     "start": "node scripts/serve",
