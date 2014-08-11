@@ -26,7 +26,8 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "firefox"
+        "browserName": "firefox",
+        "platform": "LINUX"
       }
     },
     "functional": {
