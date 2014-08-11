@@ -5,9 +5,7 @@
   "main": "scripts/build.js",
   "dependencies": {
     "express": "^4.8.3",
-    "morgan": "^1.2.2"
-  },
-  "devDependencies": {
+    "morgan": "^1.2.2",
     "metalsmith": "^0.9.0",
     "node-watch": "^0.3.4",
     "ejs": "^1.0.0",
@@ -15,11 +13,14 @@
     "node-sass": "^0.9.3",
     "morgan": "^1.2.2",
     "express": "^4.8.1",
-    "gh-pages": "^0.2.0",
+    "gh-pages": "^0.2.0"
+  },
+  "devDependencies": {
     "nightwatch": "^0.5.11",
     "selenium-server-standalone-jar": "^2.40.0"
   },
   "scripts": {
+    "postinstall": "node scripts/build",
     "test": "node bin/nightwatch --group tests",
     "watch": "node scripts/watch",
     "build": "node scripts/build",
