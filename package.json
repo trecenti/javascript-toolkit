@@ -12,10 +12,12 @@
     "node-sass": "^0.9.3",
     "morgan": "^1.2.2",
     "express": "^4.8.1",
-    "gh-pages": "^0.2.0"
+    "gh-pages": "^0.2.0",
+    "nightwatch": "^0.5.11",
+    "selenium-server-standalone-jar": "^2.40.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node bin/nightwatch --group tests",
     "watch": "node scripts/watch",
     "build": "node scripts/build",
     "start": "node scripts/serve",
