@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts/build.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.8.3",
+    "morgan": "^1.2.2"
+  },
   "devDependencies": {
     "metalsmith": "^0.9.0",
     "node-watch": "^0.3.4",
