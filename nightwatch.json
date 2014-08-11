@@ -9,7 +9,7 @@
     "start_process" : true,
     "server_path" : "node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-2.40.0.jar",
     "log_path" : "",
-    "host" : "127.0.0.1",
+    "host" : "localhost",
     "port" : 4444,
     "cli_args" : {
     }
