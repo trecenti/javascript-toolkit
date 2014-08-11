@@ -1,6 +1,6 @@
 # Javascript Toolkit WebSite
 
-Source code repository for [javascritp-toolkit.com](http://javascript-toolkit.com)
+Source code repository for [javascript-toolkit.com](http://javascript-toolkit.com)
 
 
 ## Development
