@@ -1,5 +1,66 @@
-@import "typography";
-@import "colors";
+@import "modules/reset";
+@import "modules/typography";
+@import "modules/dimensions";
+@import "modules/colors";
+@import "modules/headings";
+@import "modules/lists";
+@import "modules/links";
+
+@import "mixins";
 
 body {
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  color: $black;
+  background-color: $white;
+}
+
+header, footer {
+  padding: $default-spacing;
+  a {
+    color: $black;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+main {
+  section {
+    box-sizing: border-box;
+    padding: $default-spacing;
+
+    & + section {
+      border-top: 1px solid $light-grey;
+    }
+
+    & > a[id] {
+      display: block;
+      top: (-$default-spacing - 68px);
+      visibility: hidden;
+      position: relative;
+    }
+
+    & > h1,
+    & > h2,
+    & > p {
+      margin-bottom: $default-spacing / 2;
+    }
+
+    p {
+      color: $earth-light-grey;
+    }
+  }
+}
+
+header {
+  border-bottom: 1px solid $light-grey;
+
+}
+
+footer {
+  text-align: center;
+  background-color: $earth-light-grey;
+  color: $white;
 }

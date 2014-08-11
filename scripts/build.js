@@ -39,10 +39,10 @@ function ejsTemplates(files, metalsmith, done) {
 
     if (file === 'index.json') {
       files[htmlFile] = createFileFromTemplate(data, templates.home);
-    } else if (file.split('/').length === 2) {
-      files[htmlFile] = createFileFromTemplate(data, templates.category);
+    } else if (file.split('/').length === 3 && /.*index\.json$/.test(file)) {
+      files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.category);
     } else {
-      files[htmlFile] = createFileFromTemplate(data, templates.tool);
+      files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.tool);
     }
   });
 
@@ -68,8 +68,19 @@ function sassProcessor(files, metalsmith, done) {
 }
 
 function cleaner(files, metalsmith, done) {
+  var allowedFiles, regex;
+
+  allowedFiles = [
+    '\\.html$',
+    '\\.css$',
+    'CNAME$',
+    '^images\\/'
+  ];
+
+  regex = new RegExp(allowedFiles.join('|'));
+
   Object.keys(files).forEach(function (file) {
-    if (!/\.html$|\.css$|CNAME$/.test(file)) {;
+    if (!regex.test(file)) {;
       delete files[file];
     }
   });

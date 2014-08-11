@@ -1,0 +1,17 @@
+@mixin alpha-attribute($attribute, $color, $percent) {
+  #{$attribute}: rgba($color, $percent);
+}
+
+@mixin fixed-header {
+  header {
+    @include alpha-attribute(background, $white, 0.97);
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+  }
+
+  main {
+    margin-top: 68px;
+  }
+}

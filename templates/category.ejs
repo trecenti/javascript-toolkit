@@ -8,14 +8,18 @@
 
   <body>
     <% include partials/header %>
-
     <main>
-      <h1><%= title %></h1>
-      <ul>
-      <% categories.forEach(function (category) { %>
-        <li> <%= category.title %> </li>
+      <section>
+        <h1><%= title %></h1>
+        <p><%= description %></p>
+      </section>
+
+      <% tools.forEach(function (tool) { %>
+        <section>
+          <h2><a href="<%= tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></h2>
+          <p><%= tool.description %></p>
+        </section>
       <% }); %>
-      </li>
     </main>
 
     <% include partials/footer %>

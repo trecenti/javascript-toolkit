@@ -10,8 +10,34 @@
     <% include partials/header %>
 
     <main>
+      <section class="categories">
+        <% categories.forEach(function (category) { %>
+          <article>
+            <a href="<%= category.title.toLowerCase().replace(/\s/g, '-') %>"><img></img></a>
+            <h2><a href="#<%= category.title.toLowerCase().replace(/\s/g, '-') %>"><%= category.title %></a></h2>
+            <p><%= category.subtitle %></p>
+          </article>
+        <% }); %>
+      </section>
+
       <% categories.forEach(function (category) { %>
-        <div><%= category.title %></div>
+        <section>
+          <a id="<%= category.title.toLowerCase().replace(/\s/g, '-') %>"></a>
+          <h1><%= category.title %></h1>
+          <p><%= category.description %></p>
+          <section class="sub-categories">
+            <% category.categories.forEach(function (subCategory) { %>
+              <article>
+                <h3><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>"><%= subCategory.title %></a></h3>
+                <ul>
+                  <% subCategory.tools.forEach(function (tool) { %>
+                    <li><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>/<%= tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></li>
+                  <% }); %>
+                </ul>
+              </article>
+            <% }); %>
+          </section>
+        </section>
       <% }); %>
     </main>
 
