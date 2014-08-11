@@ -26,9 +26,7 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "browserName": "firefox"
       }
     },
     "functional": {
