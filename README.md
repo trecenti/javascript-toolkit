@@ -50,7 +50,7 @@ Serve the static website structure from `/build` on `localhost:$PORT` where `$PO
 npm start
 ```
 
-Manually build the strcuture outputing to `/build`
+Manually build the stucture outputing to `/build`
 ```bash
 npm run build
 ```
