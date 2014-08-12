@@ -6,7 +6,7 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : true,
+    "start_process" : false,
     "server_path" : "node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-2.40.0.jar",
     "log_path" : "",
     "host" : "0.0.0.0",
