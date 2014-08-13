@@ -2,35 +2,93 @@
   "categories": [
     {
       "title": "Testing",
-      "subtitle": "Sub title",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+      "subtitle": "Everything from writing tests to your application to displaying its results.",
+      "description": "What it is that software automation, quality, changeability and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed, run them and get the right feedback, as well as automate them to integrate with you build pipeline.",
       "categories": [
         {
           "title": "Test Runners",
           "tools": [
-            { "title": "karma" },
-            { "title": "saucelabs" }
+            { "title": "Karma" , "href": "karma" },
+            { "title": "Sauce Labs", "href": "saucelabs" }
           ]
         },
         {
           "title": "Frameworks",
           "tools": [
-            { "title": "jasmine" },
-            { "title": "qunit" }
+            { "title": "Jasmine", "href": "jasmine" },
+            { "title": "Mocha", "href": "mocha" },
+            { "title": "QUnit", "href": "qunit" }
+          ]
+        },
+        {
+          "title": "End to End",
+          "tools": [
+            { "title": "Protractor", "href": "protractor"},
+            { "title": "CasperJS", "href": "casperjs"},
+            { "title": "Nightwatch.js", "href": "nightwatch"},
+            { "title": "Watir WebDriver", "href": "watir"}
+          ]
+        },
+        {
+          "title": "Test Support",
+          "tools": [
+            { "title": "PhantomJS", "href": "phantomjs" },
+            { "title": "Zombie.js", "href": "zombiejs" },
+            { "title": "Sinon.JS", "href": "sinonjs" },
+            { "title": "Chai", "href": "chai" }
           ]
         }
       ]
     },
     {
       "title": "Infrastructure",
-      "subtitle": "Sub title",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+      "subtitle": "Your toolbox for fast and easy development.",
+      "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software what will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
       "categories": [
         {
-          "title": "Sub-Category",
+          "title": "Scaffold",
+          "subtitle": "",
+          "description": "Imagine you are about to start a new project. How to organize it? What is the folder structure, where to put the configuration, application, libraries and test files? Some times is not just a question of where to put the files, but of the standard way of doing that. What are the best practics the community has collected along the years? How to keep necessary modularization and separation of concerns?",
           "tools": [
-            { "title": "Tool 1" },
-            { "title": "Tool 2" }
+            { "title": "Yeoman", "href": "yeoman" },
+            { "title": "HTML5 Boilerplate", "href": "html5boilerplate" },
+            { "title": "Seed Projects", "href": "seed-projects"},
+            { "title": "Bootstraps", "url": "bootstraps"}
+          ]
+        },
+        {
+          "title": "Automation",
+          "subtitle": "",
+          "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the javascript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation.",
+          "tools": [
+            { "title": "Grunt", "href": "grunt" },
+            { "title": "Gulp.js", "href": "gulpjs" },
+            { "title": "Broccoli", "href": "broccoli" },
+            { "title": "ComponentJS", "href": "componentjs" },
+            { "title": "npm", "href": "npm" },
+            { "title": "Make", "href": "make" }
+          ]
+        },
+        {
+          "title": "Automation Utilities",
+          "subtitle": "",
+          "description": "What are the several parts I shoud run within an automation pipeline? Many times they depend on the project specific context. Nevertheless, yout toolkit should contains options enough to allow you to answer the projects needs as soon as they appear.",
+          "tools": [
+            { "title": "Minified", "href": "minified" },
+            { "title": "UglifyJS", "href": "uglifyjs" },
+            { "title": "JSLint", "href": "jslint" },
+            { "title": "JSHint", "href": "jshint" },
+            { "title": "watch", "href": "watch" }
+          ]
+        },
+        {
+          "title": "Dependency Management",
+          "subtitle": "",
+          "description": "Applications are getting complex. Most part of the times, even simple front-end efforts envolve using several third party libraries. How to coordinate this dependencies in your project? How to keep track of the evolution of the libraries you depend on? How to manage transitive dependencies? How to easily download all the dependencies within new workstations? ",
+          "tools": [
+            { "title": "Bower", "href": "bower" },
+            { "title": "ComponentJS", "href": "componentjs" },
+            { "title": "npm", "href": "npm" }
           ]
         }
       ]
@@ -55,10 +113,13 @@
       "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
       "categories": [
         {
-          "title": "Sub-Category",
+          "title": "Other Languages",
+          "subtitle": "",
+          "description": "",
           "tools": [
-            { "title": "Tool 1" },
-            { "title": "Tool 2" }
+            { "title": "coffeescript", "url": "http://coffeescript.org/" },
+            { "title": "clojurescript", "url": "https://github.com/clojure/clojurescript" },
+            { "title": "typescript", "url": "http://www.typescriptlang.org/" }
           ]
         }
       ]
