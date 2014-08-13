@@ -54,10 +54,10 @@
           "subtitle": "",
           "description": "Imagine you are about to start a new project. How to organize it? What is the folder structure, where to put the configuration, application, libraries and test files? Some times is not just a question of where to put the files, but of the standard way of doing that. What are the best practics the community has collected along the years? How to keep necessary modularization and separation of concerns?",
           "tools": [
-            { "title": "yeoman", "url": "http://yeoman.io/" },
-            { "title": "html5boilerplate", "url": "http://html5boilerplate.com/" },
-            { "title": "seed projects", "url": ""},
-            { "title": "bootstraps", "url": ""}
+            { "title": "Yeoman", "href": "yeoman" },
+            { "title": "HTML5 Boilerplate", "href": "html5boilerplate" },
+            { "title": "Seed Projects", "href": "seed-projects"},
+            { "title": "Bootstraps", "url": "bootstraps"}
           ]
         },
         {
@@ -65,12 +65,12 @@
           "subtitle": "",
           "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the javascript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation.",
           "tools": [
-            { "title": "grunt", "url": "http://gruntjs.com/" },
-            { "title": "gulp", "url": "http://gulpjs.com/" },
-            { "title": "broccoli", "url": "https://www.npmjs.org/package/broccoli/" },
-            { "title": "component", "url": "http://componentjs.com/" },
-            { "title": "NPM", "url": "https://www.npmjs.org/" },
-            { "title": "make", "url": "http://www.gnu.org/software/make/" }
+            { "title": "Grunt", "href": "grunt" },
+            { "title": "Gulp.js", "href": "gulpjs" },
+            { "title": "Broccoli", "href": "broccoli" },
+            { "title": "ComponentJS", "href": "componentjs" },
+            { "title": "npm", "href": "npm" },
+            { "title": "Make", "href": "make" }
           ]
         },
         {
@@ -78,11 +78,11 @@
           "subtitle": "",
           "description": "What are the several parts I shoud run within an automation pipeline? Many times they depend on the project specific context. Nevertheless, yout toolkit should contains options enough to allow you to answer the projects needs as soon as they appear.",
           "tools": [
-            { "title": "minify", "url": "http://minifiedjs.com/" },
-            { "title": "uglify", "url": "http://marijnhaverbeke.nl/uglifyjs" },
-            { "title": "lint", "url": "http://www.jslint.com/" },
-            { "title": "jshint", "url": "http://www.jshint.com/" },
-            { "title": "watch", "url": "" }
+            { "title": "Minified", "href": "minified" },
+            { "title": "UglifyJS", "href": "uglifyjs" },
+            { "title": "JSLint", "href": "jslint" },
+            { "title": "JSHint", "href": "jshint" },
+            { "title": "watch", "href": "watch" }
           ]
         },
         {
@@ -90,9 +90,9 @@
           "subtitle": "",
           "description": "Applications are getting complex. Most part of the times, even simple front-end efforts envolve using several third party libraries. How to coordinate this dependencies in your project? How to keep track of the evolution of the libraries you depend on? How to manage transitive dependencies? How to easily download all the dependencies within new workstations? ",
           "tools": [
-            { "title": "bower", "url": "http://bower.io/" },
-            { "title": "component", "url": "http://componentjs.com/" },
-            { "title": "NPM", "url": "https://www.npmjs.org/" }
+            { "title": "Bower", "href": "bower" },
+            { "title": "ComponentJS", "href": "componentjs" },
+            { "title": "npm", "href": "npm" }
           ]
         }
       ]
