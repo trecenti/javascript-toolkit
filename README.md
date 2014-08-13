@@ -18,7 +18,7 @@ Here's the current architecture to generate the static website, given the struct
   |  |__/sub-category
   |     |__index.json
   |     |__tool.json
-  |__index.json   
+  |__index.json
 ```
 
 it will output:
@@ -27,7 +27,7 @@ it will output:
   |__/sub-category
   |  |__index.html
   |  |__tool.html
-  |__index.html   
+  |__index.html
 ```
 
 The template will be selected based on where the `.json` is located and its name, for example:
@@ -36,7 +36,7 @@ The template will be selected based on where the `.json` is located and its name
 
 `/src/category/sub-category/index.json` uses `/templates/category.ejs`
 
-`/src/category/sub-category/tool.json` uses `/templates/tool.ejs` 
+`/src/category/sub-category/tool.json` uses `/templates/tool.ejs`
 
 ### Scripts
 
@@ -59,10 +59,21 @@ npm run build
 
 We're using nightwatch to create end-2-end functional UI tests, we should write tests whenever a new tool is added to the toolkit.
 
+
+## Environment & Deploys
+
+### Production
+We're using Github Pages to host the website, deploys to production are manually triggered from [Snap-ci](https://snap-ci.com/ThoughtWorksInc/js-toolkit/branch/master), we plan to automate this once we have a release.
+
+### Staging
+We have a staging environment hosted [heroku](staging-js-toolkit.herokuapp.com), every merge to master will deploy a new version of the app to this env.
+Tests will also be run in this environment, they're managed by Snap-Ci
+
 ### Publishing Changes
 
 Publish `/build` to `gh-pages` branch.
-Use with caution is this is the production deploy mechanism.
+
+**Use with caution**: this is the production deploy mechanism, we shouldn't run this command via terminal. Instead refer to [production section](#Production) of this readme for deploys to production.
 ```bash
 npm run publish
 ```
@@ -70,3 +81,4 @@ There's a helper that builds and publish.
 ```bash
 npm run buildAndPublish
 ```
+
