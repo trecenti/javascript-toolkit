@@ -37,7 +37,7 @@ main {
 
     & > a[id] {
       display: block;
-      top: (-$default-spacing - 68px);
+      top: (-$default-spacing - $header-height);
       visibility: hidden;
       position: relative;
     }
@@ -56,7 +56,14 @@ main {
 
 header {
   border-bottom: 1px solid $light-grey;
+  padding: ($default-spacing / 4) $default-spacing;
 
+  h1 {
+    img {
+      vertical-align: middle;
+      width: $icons-medium;
+    }
+  }
 }
 
 footer {
