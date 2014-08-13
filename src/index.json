@@ -8,42 +8,38 @@
         {
           "title": "Test Runners",
           "subtitle": "Environments for easy testing.",
-          "description": "",
           "tools": [
-            { "title": "karma" , "url": "http://karma-runner.github.io/0.12/index.html" },
-            { "title": "saucelabs", "url": "https://saucelabs.com/" }
+            { "title": "Karma" , "href": "karma" },
+            { "title": "Sauce Labs", "href": "saucelabs" }
           ]
         },
         {
           "title": "Frameworks",
           "subtitle": "Tools to allow you write your tests.",
-          "description": "",
           "tools": [
-            { "title": "jasmine", "url": "http://jasmine.github.io/" },
-            { "title": "mocha", "url": "http://visionmedia.github.io/mocha/" },
-            { "title": "qunit", "url": "http://qunitjs.com/" }
+            { "title": "Jasmine", "href": "jasmine" },
+            { "title": "Mocha", "href": "mocha" },
+            { "title": "QUnit", "href": "qunit" }
           ]
         },
         {
           "title": "End to End",
           "subtitle": "Test the whole flow of your application.",
-          "description": "",
           "tools": [
-            { "title": "protractor", "url": "https://github.com/angular/protractor/"},
-            { "title": "casperjs", "url": "http://casperjs.org/"},
-            { "title": "nightwatch.js", "url": "http://nightwatchjs.org/"},
-            { "title": "watir webdriver", "url": "http://watirwebdriver.com/javascript-dialogs/"}
+            { "title": "Protractor", "href": "protractor"},
+            { "title": "CasperJS", "href": "casperjs"},
+            { "title": "Nightwatch.js", "href": "nightwatch"},
+            { "title": "Watir WebDriver", "href": "watir"}
           ]
         },
         {
           "title": "Test Support",
           "subtitle": "Support libraries for writing and running tests.",
-          "desription": "",
           "tools": [
-            { "title": "phantomjs", "url": "http://phantomjs.org/" },
-            { "title": "zombie.js", "url": "http://zombie.labnotes.org/" },
-            { "title": "sinon", "url": "http://sinonjs.org/" },
-            { "title": "chai", "url": "http://chaijs.com/" }
+            { "title": "PhantomJS", "href": "phantomjs" },
+            { "title": "Zombie.js", "href": "zombiejs" },
+            { "title": "Sinon.JS", "href": "sinonjs" },
+            { "title": "Chai", "href": "chai" }
           ]
         }
       ]

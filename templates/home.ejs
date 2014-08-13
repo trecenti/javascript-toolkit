@@ -31,7 +31,7 @@
                 <h3><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>"><%= subCategory.title %></a></h3>
                 <ul>
                   <% subCategory.tools.forEach(function (tool) { %>
-                    <li><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>/<%= tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></li>
+                    <li><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>/<%= tool.href %>.html"><%= tool.title %></a></li>
                   <% }); %>
                 </ul>
               </article>
