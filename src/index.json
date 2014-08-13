@@ -7,7 +7,6 @@
       "categories": [
         {
           "title": "Test Runners",
-          "subtitle": "Environments for easy testing.",
           "tools": [
             { "title": "Karma" , "href": "karma" },
             { "title": "Sauce Labs", "href": "saucelabs" }
@@ -15,7 +14,6 @@
         },
         {
           "title": "Frameworks",
-          "subtitle": "Tools to allow you write your tests.",
           "tools": [
             { "title": "Jasmine", "href": "jasmine" },
             { "title": "Mocha", "href": "mocha" },
@@ -24,7 +22,6 @@
         },
         {
           "title": "End to End",
-          "subtitle": "Test the whole flow of your application.",
           "tools": [
             { "title": "Protractor", "href": "protractor"},
             { "title": "CasperJS", "href": "casperjs"},
@@ -34,7 +31,6 @@
         },
         {
           "title": "Test Support",
-          "subtitle": "Support libraries for writing and running tests.",
           "tools": [
             { "title": "PhantomJS", "href": "phantomjs" },
             { "title": "Zombie.js", "href": "zombiejs" },
