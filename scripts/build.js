@@ -74,7 +74,8 @@ function cleaner(files, metalsmith, done) {
     '\\.html$',
     '\\.css$',
     'CNAME$',
-    '^images\\/'
+    '^images\\/',
+    'favicon.ico'
   ];
 
   regex = new RegExp(allowedFiles.join('|'));
