@@ -1,9 +1,0 @@
-{
-  "title": "Sinon",
-  "description": "Sinon is a powerfull mocking library with test spies, stubs and mocks",
-  "links": [
-    { "name": "Github", "href": "https://github.com/cjohansen/Sinon.JS" },
-    { "name": "Homepage", "href": "http://sinonjs.org/" }
-  ],
-  "examples": []
-}
