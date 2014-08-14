@@ -13,9 +13,6 @@
           "tools": [
             { "title": "Karma" , "href": "karma" },
             { "title": "Sauce Labs", "href": "saucelabs" }
-          "tools": [
-            { "title": "karma" },
-            { "title": "saucelabs" }
           ]
         },
         {
