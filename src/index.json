@@ -72,7 +72,7 @@
           "subtitle": "Automate tasks to improve your testing, development and delivery.",
           "tools": [
             { "title": "Grunt", "href": "grunt" },
-            { "title": "Gulp.js", "href": "gulpjs" },
+            { "title": "Gulp", "href": "gulpjs" },
             { "title": "Broccoli", "href": "broccoli" },
             { "title": "ComponentJS", "href": "componentjs" },
             { "title": "npm", "href": "npm" },
@@ -87,8 +87,8 @@
             { "title": "Minified", "href": "minified" },
             { "title": "UglifyJS", "href": "uglifyjs" },
             { "title": "JSLint", "href": "jslint" },
-          t s  { "title": "JSHint", "href": "jshint" },
-            { "title": "watch", "href": "watch" }
+            { "title": "JSHint", "href": "jshint" },
+            { "title": "Watch", "href": "watch" }
           ]
         },
         {
