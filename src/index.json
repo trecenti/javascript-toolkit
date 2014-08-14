@@ -4,7 +4,7 @@
       "title": "Testing",
       "name": "testing",
       "subtitle": "Everything from writing tests to your application to displaying its results.",
-      "description": "What it is that software automation, quality, changeability and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed, run them and get the right feedback, as well as automate them to integrate with you build pipeline.",
+      "description": "What do software automation, quality, changeability, and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed. Run them and get the right feedback, as well as automate them to integrate with your build pipeline.",
       "categories": [
         {
           "title": "Test Runners",
@@ -53,7 +53,7 @@
       "title": "Infrastructure",
       "name": "infrastructure",
       "subtitle": "Your toolbox for fast and easy development.",
-      "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software what will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
+      "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software that will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
       "categories": [
         {
           "title": "Scaffold",
