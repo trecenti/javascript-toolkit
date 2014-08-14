@@ -1,0 +1,26 @@
+{
+  "title": "Scaffold",
+  "description": "",
+  "tools": [
+    {
+      "title": "Yeoman",
+      "name": "yeoman",
+      "subtitle": ""
+    },
+    {
+      "title": "Html 5 Boilerplate",
+      "name": "html5-boilerplate",
+      "subtitle": ""
+    },
+    {
+      "title": "Seed Projects",
+      "name": "seed-projects",
+      "subtitle": ""
+    },
+    {
+      "title": "Boostraps",
+      "name": "bootstraps",
+      "subtitle": ""
+    }
+  ]
+}
