@@ -1,0 +1,11 @@
+{
+  "title": "UglifyJS",
+  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/mishoo/UglifyJS2" }
+  ],
+  "examples": [
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
+  ]
+}
