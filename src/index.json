@@ -76,7 +76,7 @@
           "subtitle": "Automate tasks to improve your testing, development and delivery.",
           "tools": [
             { "title": "Grunt", "href": "grunt" },
-            { "title": "Gulp.js", "href": "gulpjs" },
+            { "title": "Gulp", "href": "gulpjs" },
             { "title": "Broccoli", "href": "broccoli" },
             { "title": "ComponentJS", "href": "componentjs" },
             { "title": "npm", "href": "npm" },

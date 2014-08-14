@@ -3,8 +3,18 @@
   "description": "Applications are getting complex. Most part of the times, even simple front-end efforts envolve using several third party libraries. How to coordinate this dependencies in your project? How to keep track of the evolution of the libraries you depend on? How to manage transitive dependencies? How to easily download all the dependencies within new workstations? ",
   "tools": [
     {
-      "title": "",
-      "name": "",
+      "title": "Bower",
+      "name": "bower",
+      "subtitle": ""
+    },
+    {
+      "title": "ComponentJS",
+      "name": "componentjs",
+      "subtitle": ""
+    },
+    {
+      "title": "NPM",
+      "name": "npm",
       "subtitle": ""
     }
   ]
