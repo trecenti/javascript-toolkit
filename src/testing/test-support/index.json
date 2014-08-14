@@ -2,5 +2,25 @@
   "title": "Test Support",
   "description": "Support libraries for writing and running tests.",
   "tools": [
+    {
+      "title": "Phantom JS",
+      "name": "phantom-js",
+      "subtitle": ""
+    },
+    {
+      "title": "Zombie JS",
+      "name": "zombie-js",
+      "subtitle": ""
+    },
+    {
+      "title": "Sinon",
+      "name": "sinon",
+      "subtitle": ""
+    },
+    {
+      "title": "Chai",
+      "name": "chai",
+      "subtitle": ""
+    }
   ]
 }

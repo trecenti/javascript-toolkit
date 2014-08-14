@@ -2,5 +2,25 @@
   "title": "End to End",
   "description": "Test the whole flow of your application.",
   "tools": [
+    {
+      "title": "Protractor",
+      "name": "protractor",
+      "subtitle": ""
+    },
+    {
+      "title": "Casper JS",
+      "name": "casper-js",
+      "subtitle": ""
+    },
+    {
+      "title": "Nightwatch",
+      "name": "nightwatch",
+      "subtitle": ""
+    },
+    {
+      "title": "Watir WebDriver",
+      "name": "watir-webdriver,
+      "subtitle": ""
+    }
   ]
 }

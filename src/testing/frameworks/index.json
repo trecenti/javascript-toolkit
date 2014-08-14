@@ -2,5 +2,20 @@
   "title": "Frameworks",
   "description": "Tools to allow you write your tests.",
   "tools": [
+    {
+      "title": "Jasmine",
+      "name": "jasmine",
+      "subtitle": ""
+    },
+    {
+      "title": "Mocha",
+      "name": "mocha",
+      "subtitle": ""
+    },
+    {
+      "title": "QUnit",
+      "name": "qunit",
+      "subtitle": ""
+    }
   ]
 }
