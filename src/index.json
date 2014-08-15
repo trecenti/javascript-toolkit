@@ -105,13 +105,37 @@
     {
       "title": "Application & Product",
       "subtitle": "Sub title",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+      "description": "Applications made to run on the web are getting complex. We are now being able to build in the browser, applications with a behavior as rich as desktop ones. Nevertheless, is all html. We need frameworks that allow us to extend html to support a rich front-end development.",
       "categories": [
         {
-          "title": "Sub-Category",
+          "title": "Application Frameworks",
+          "href": "application-frameworks",
           "tools": [
-            { "title": "Tool 1" },
-            { "title": "Tool 2" }
+            { "title": "Angular", "href": "angular" },
+            { "title": "Backbone", "href": "backbone" },
+            { "title": "Ember", "href": "ember" },
+            { "title": "Knockout", "href": "knockout" },
+            { "title": "React", "href": "react" },
+            { "title": "Google Closure", "href": "google-closure" }
+          ]
+        },
+        {
+          "title": "Application Utilities",
+          "href": "application-utilities",
+          "tools": [   
+            { "title": "Page", "href": "page" },
+            { "title": "Director", "href": "director" },
+            { "title": "Crossroads", "href": "crossroads" }
+          ]
+        },
+        {
+          "title": "Dynamic Loading",
+          "href": "dynamic-loding",
+          "tools": [
+            { "title": "RequireJS", "href": "requirejs" },
+            { "title": "CurlJS", "href": "curljs" },
+            { "title": "AmdJS", "href": "amdjs" },
+            { "title": "AsyncJS", "href": "asyncjs" }
           ]
         }
       ]
