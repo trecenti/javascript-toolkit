@@ -4,7 +4,7 @@
 
 @mixin fixed-header {
   header {
-    @include alpha-attribute(background, $white, 0.97);
+    @include alpha-attribute(background, $light-grey, 0.94);
     position: fixed;
     box-sizing: border-box;
     top: 0;

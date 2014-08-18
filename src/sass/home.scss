@@ -35,7 +35,8 @@ main {
     &.sub-categories {
       padding: 0;
       display: inline-flex;
-      justify-content: flex-start;
+      justify-content: space-around;
+      flex-flow: row wrap;
 
       article {
         padding: 0;
