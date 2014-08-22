@@ -32,7 +32,7 @@ main {
     padding: $default-spacing;
 
     & + section {
-      border-top: 1px solid $light-grey;
+      border-top: 1px solid $grey;
     }
 
     & > a[id] {
@@ -55,7 +55,7 @@ main {
 }
 
 header {
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid $grey;
   padding: ($default-spacing / 4) $default-spacing;
 
   h1 {
