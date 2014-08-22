@@ -92,7 +92,7 @@
             { "title": "UglifyJS", "href": "uglifyjs" },
             { "title": "JSLint", "href": "jslint" },
             { "title": "JSHint", "href": "jshint" },
-            { "title": "watch", "href": "watch" }
+            { "title": "Watch", "href": "watch" }
           ]
         },
         {
