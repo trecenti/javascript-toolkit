@@ -1,0 +1,36 @@
+{
+  "title": "Automation",
+  "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the javascript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation.",
+  "tools": [
+    {
+      "title": "Grunt",
+      "name": "grunt",
+      "subtitle": ""
+    },
+    {
+      "title": "Gulp",
+      "name": "gulp",
+      "subtitle": ""
+    },
+    {
+      "title": "Brocolli",
+      "name": "brocolli",
+      "subtitle": ""
+    },
+    {
+      "title": "Component JS",
+      "name": "componentjs",
+      "subtitle": ""
+    },
+    {
+      "title": "NPM",
+      "name": "npm",
+      "subtitle": ""
+    },
+    {
+      "title": "Make",
+      "name": "make",
+      "subtitle": ""
+    }
+  ]
+}

@@ -4,6 +4,7 @@
       "title": "Testing",
       "name": "testing",
       "img": "/images/testing.png",
+      "href": "testing",
       "subtitle": "Everything from writing tests to your application to displaying its results.",
       "description": "What do software automation, quality, changeability, and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed. Run them and get the right feedback, as well as automate them to integrate with your build pipeline.",
       "categories": [
@@ -40,7 +41,7 @@
         {
           "title": "Test Support",
           "subtitle": "Support libraries for writing and running tests.",
-          "name": "test-support",
+          "href": "test-support",
           "tools": [
             { "title": "PhantomJS", "href": "phantomjs" },
             { "title": "Zombie.js", "href": "zombiejs" },
@@ -54,14 +55,14 @@
       "title": "Infrastructure",
       "name": "infrastructure",
       "img": "/images/infrastructure.png",
+      "href": "infrastructure",
       "subtitle": "Your toolbox for fast and easy development.",
       "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software that will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
       "categories": [
         {
           "title": "Scaffold",
-          "name": "scaffold",
-          "subtitle": "",
-          "description": "Imagine you are about to start a new project. How to organize it? What is the folder structure, where to put the configuration, application, libraries and test files? Some times is not just a question of where to put the files, but of the standard way of doing that. What are the best practics the community has collected along the years? How to keep necessary modularization and separation of concerns?",
+          "href": "scaffold",
+          "subtitle": "Good practices and templates to speed up your project start.",
           "tools": [
             { "title": "Yeoman", "href": "yeoman" },
             { "title": "HTML5 Boilerplate", "href": "html5boilerplate" },
@@ -71,12 +72,11 @@
         },
         {
           "title": "Automation",
-          "name": "automation",
-          "subtitle": "",
-          "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the javascript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation.",
+          "href": "automation",
+          "subtitle": "Automate tasks to improve your testing, development and delivery.",
           "tools": [
             { "title": "Grunt", "href": "grunt" },
-            { "title": "Gulp.js", "href": "gulpjs" },
+            { "title": "Gulp", "href": "gulpjs" },
             { "title": "Broccoli", "href": "broccoli" },
             { "title": "ComponentJS", "href": "componentjs" },
             { "title": "npm", "href": "npm" },
@@ -85,22 +85,19 @@
         },
         {
           "title": "Automation Utilities",
-          "name": "automation-utilities",
-          "subtitle": "",
-          "description": "What are the several parts I shoud run within an automation pipeline? Many times they depend on the project specific context. Nevertheless, yout toolkit should contains options enough to allow you to answer the projects needs as soon as they appear.",
+          "href": "automation-utilities",
+          "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
             { "title": "Minified", "href": "minified" },
             { "title": "UglifyJS", "href": "uglifyjs" },
             { "title": "JSLint", "href": "jslint" },
             { "title": "JSHint", "href": "jshint" },
-            { "title": "watch", "href": "watch" }
+            { "title": "Watch", "href": "watch" }
           ]
         },
         {
           "title": "Dependency Management",
-          "subtitle": "dependency-management",
-          "name": "scaffold",
-          "description": "Applications are getting complex. Most part of the times, even simple front-end efforts envolve using several third party libraries. How to coordinate this dependencies in your project? How to keep track of the evolution of the libraries you depend on? How to manage transitive dependencies? How to easily download all the dependencies within new workstations? ",
+          "href": "dependency-management",
           "tools": [
             { "title": "Bower", "href": "bower" },
             { "title": "ComponentJS", "href": "componentjs" },
@@ -112,14 +109,37 @@
     {
       "title": "Application & Product",
       "subtitle": "Sub title",
-      "img": "/images/application-and-product.png",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+      "description": "Applications made to run on the web are getting complex. We are now being able to build in the browser, applications with a behavior as rich as desktop ones. Nevertheless, is all html. We need frameworks that allow us to extend html to support a rich front-end development.",
       "categories": [
         {
-          "title": "Sub-Category",
+          "title": "Application Frameworks",
+          "href": "application-frameworks",
           "tools": [
-            { "title": "Tool 1" },
-            { "title": "Tool 2" }
+            { "title": "Angular", "href": "angular" },
+            { "title": "Backbone", "href": "backbone" },
+            { "title": "Ember", "href": "ember" },
+            { "title": "Knockout", "href": "knockout" },
+            { "title": "React", "href": "react" },
+            { "title": "Google Closure", "href": "google-closure" }
+          ]
+        },
+        {
+          "title": "Application Utilities",
+          "href": "application-utilities",
+          "tools": [   
+            { "title": "Page", "href": "page" },
+            { "title": "Director", "href": "director" },
+            { "title": "Crossroads", "href": "crossroads" }
+          ]
+        },
+        {
+          "title": "Dynamic Loading",
+          "href": "dynamic-loding",
+          "tools": [
+            { "title": "RequireJS", "href": "requirejs" },
+            { "title": "CurlJS", "href": "curljs" },
+            { "title": "AmdJS", "href": "amdjs" },
+            { "title": "AsyncJS", "href": "asyncjs" }
           ]
         }
       ]
