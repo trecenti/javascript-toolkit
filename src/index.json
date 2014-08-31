@@ -2,7 +2,6 @@
   "categories": [
     {
       "title": "Testing",
-      "name": "testing",
       "img": "/images/testing.png",
       "href": "testing",
       "subtitle": "Everything from writing tests to your application to displaying its results.",
@@ -53,7 +52,6 @@
     },
     {
       "title": "Infrastructure",
-      "name": "infrastructure",
       "img": "/images/infrastructure.png",
       "href": "infrastructure",
       "subtitle": "Your toolbox for fast and easy development.",
