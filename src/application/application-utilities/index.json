@@ -1,0 +1,21 @@
+{
+  "title": "Application Utilities",
+  "description": "",
+  "tools": [
+    {
+      "title": "Page",
+      "name": "page",
+      "subtitle": ""
+    },
+    {
+      "title": "Director",
+      "name": "director",
+      "subtitle": ""
+    },
+    {
+      "title": "Crossroads",
+      "name": "crossroads",
+      "subtitle": ""
+    }
+  ]
+}

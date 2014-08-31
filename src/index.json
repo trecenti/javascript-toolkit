@@ -106,14 +106,16 @@
     },
     {
       "title": "Application & Product",
-      "subtitle": "Sub title",
+      "subtitle": "All the help you need to build your application.",
+      "img": "/images/application-and-product.png",
+      "href": "application",
       "description": "Applications made to run on the web are getting complex. We are now being able to build in the browser, applications with a behavior as rich as desktop ones. Nevertheless, is all html. We need frameworks that allow us to extend html to support a rich front-end development.",
       "categories": [
         {
           "title": "Application Frameworks",
           "href": "application-frameworks",
           "tools": [
-            { "title": "Angular", "href": "angular" },
+            { "title": "AngularJS", "href": "angularjs" },
             { "title": "Backbone", "href": "backbone" },
             { "title": "Ember", "href": "ember" },
             { "title": "Knockout", "href": "knockout" },
@@ -141,8 +143,7 @@
           ]
         }
       ]
-    },
-    {
+    },    {
       "title": "Development",
       "subtitle": "Sub title",
       "img": "/images/development.png",
