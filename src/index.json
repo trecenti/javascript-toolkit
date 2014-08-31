@@ -2,9 +2,9 @@
   "categories": [
     {
       "title": "Testing",
+      "subtitle": "Everything from writing tests to your application to displaying its results.",
       "img": "/images/testing.png",
       "href": "testing",
-      "subtitle": "Everything from writing tests to your application to displaying its results.",
       "description": "What do software automation, quality, changeability, and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed. Run them and get the right feedback, as well as automate them to integrate with your build pipeline.",
       "categories": [
         {
@@ -51,10 +51,10 @@
       ]
     },
     {
-      "title": "Infrastructure",
-      "img": "/images/infrastructure.png",
-      "href": "infrastructure",
+      "title": "Infrastructure & Development",
       "subtitle": "Your toolbox for fast and easy development.",
+      "img": "/images/infrastructure-and-development.png",
+      "href": "infrastructure-and-development",
       "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software that will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
       "categories": [
         {
@@ -96,6 +96,16 @@
             { "title": "Bower", "href": "bower" },
             { "title": "npm", "href": "npm" }
           ]
+        },
+        {
+          "title": "Other Languages",
+          "subtitle": "",
+          "description": "",
+          "tools": [
+            { "title": "coffeescript", "url": "http://coffeescript.org/" },
+            { "title": "clojurescript", "url": "https://github.com/clojure/clojurescript" },
+            { "title": "typescript", "url": "http://www.typescriptlang.org/" }
+          ]
         }
       ]
     },
@@ -122,7 +132,7 @@
         {
           "title": "Application Utilities",
           "href": "application-utilities",
-          "tools": [   
+          "tools": [
             { "title": "Page.js", "href": "page" },
             { "title": "Director", "href": "director" },
             { "title": "Crossroads.js", "href": "crossroads" },
@@ -137,23 +147,6 @@
             { "title": "CurlJS", "href": "curljs" },
             { "title": "AmdJS", "href": "amdjs" },
             { "title": "AsyncJS", "href": "asyncjs" }
-          ]
-        }
-      ]
-    },    {
-      "title": "Development",
-      "subtitle": "Sub title",
-      "img": "/images/development.png",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
-      "categories": [
-        {
-          "title": "Other Languages",
-          "subtitle": "",
-          "description": "",
-          "tools": [
-            { "title": "coffeescript", "href": "http://coffeescript.org/" },
-            { "title": "clojurescript", "href": "https://github.com/clojure/clojurescript" },
-            { "title": "typescript", "href": "http://www.typescriptlang.org/" }
           ]
         }
       ]
