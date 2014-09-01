@@ -1,0 +1,36 @@
+{
+  "title": "Application Frameworks",
+  "description": "",
+  "tools": [
+    {
+      "title": "AngularJS",
+      "name": "angularjs",
+      "subtitle": ""
+    },
+    {
+      "title": "Backbone",
+      "name": "backbone",
+      "subtitle": ""
+    },
+    {
+      "title": "Ember",
+      "name": "ember",
+      "subtitle": ""
+    },
+    {
+      "title": "Knockout",
+      "name": "knockout",
+      "subtitle": ""
+    },
+    {
+      "title": "React",
+      "name": "react",
+      "subtitle": ""
+    },
+    {
+      "title": "Google Closure",
+      "name": "google-closure",
+      "subtitle": ""
+    }
+  ]
+}
