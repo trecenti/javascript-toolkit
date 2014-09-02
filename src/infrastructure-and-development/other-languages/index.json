@@ -4,17 +4,17 @@
   "tools": [
     {
       "title": "Coffee Script",
-      "name": "coffee-script",
+      "href": "coffee-script",
       "subtitle": ""
     },
     {
       "title": "Clojure Script",
-      "name": "clojure-script",
+      "href": "clojure-script",
       "subtitle": ""
     },
     {
       "title": "Type Script",
-      "name": "type-script",
+      "href": "type-script",
       "subtitle": ""
     }
   ]

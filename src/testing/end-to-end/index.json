@@ -4,22 +4,22 @@
   "tools": [
     {
       "title": "Protractor",
-      "name": "protractor",
+      "href": "protractor",
       "subtitle": ""
     },
     {
       "title": "Casper JS",
-      "name": "casper-js",
+      "href": "casper",
       "subtitle": ""
     },
     {
       "title": "Nightwatch",
-      "name": "nightwatch",
+      "href": "nightwatch",
       "subtitle": ""
     },
     {
       "title": "Watir WebDriver",
-      "name": "watir-webdriver",
+      "href": "watir",
       "subtitle": ""
     }
   ]

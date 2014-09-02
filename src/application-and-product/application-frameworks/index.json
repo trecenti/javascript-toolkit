@@ -3,38 +3,38 @@
   "description": "",
   "tools": [
     {
-      "title": "AngularJS",
-      "name": "angularjs",
+      "title": "Angular JS",
+      "href": "angular",
       "subtitle": ""
     },
     {
       "title": "Backbone",
-      "name": "backbone",
+      "href": "backbone",
       "subtitle": ""
     },
     {
       "title": "Component JS",
-      "name": "componentjs",
+      "href": "componentjs",
       "subtitle": ""
     },
     {
       "title": "Ember",
-      "name": "ember",
+      "href": "ember",
       "subtitle": ""
     },
     {
       "title": "Knockout",
-      "name": "knockout",
+      "href": "knockout",
       "subtitle": ""
     },
     {
       "title": "React",
-      "name": "react",
+      "href": "react",
       "subtitle": ""
     },
     {
       "title": "Google Closure",
-      "name": "google-closure",
+      "href": "google-closure",
       "subtitle": ""
     }
   ]

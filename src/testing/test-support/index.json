@@ -4,22 +4,22 @@
   "tools": [
     {
       "title": "Phantom JS",
-      "name": "phantom-js",
+      "href": "phantom",
       "subtitle": ""
     },
     {
       "title": "Zombie JS",
-      "name": "zombie-js",
+      "href": "zombie",
       "subtitle": ""
     },
     {
       "title": "Sinon",
-      "name": "sinon",
+      "href": "sinon",
       "subtitle": ""
     },
     {
       "title": "Chai",
-      "name": "chai",
+      "href": "chai",
       "subtitle": ""
     }
   ]

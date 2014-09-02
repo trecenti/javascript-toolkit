@@ -4,22 +4,22 @@
   "tools": [
     {
       "title": "JQuery",
-      "name": "jquery",
+      "href": "jquery",
       "subtitle": ""
     },
     {
       "title": "Zepto",
-      "name": "zepto",
+      "href": "zepto",
       "subtitle": ""
     },
     {
       "title": "Polymer",
-      "name": "polymer",
+      "href": "polymer",
       "subtitle": ""
     },
     {
       "title": "Prototype",
-      "name": "protype",
+      "href": "prototype",
       "subtitle": ""
     }
   ]

@@ -4,12 +4,20 @@
   "tools": [
     {
       "title": "Bower",
-      "name": "bower",
+      "href": "bower",
       "subtitle": ""
     },
     {
+<<<<<<< HEAD
+=======
+      "title": "Component JS",
+      "href": "component",
+      "subtitle": ""
+    },
+    {
+>>>>>>> Fix links and namings.
       "title": "NPM",
-      "name": "npm",
+      "href": "npm",
       "subtitle": ""
     }
   ]

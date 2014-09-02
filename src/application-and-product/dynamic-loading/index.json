@@ -3,23 +3,23 @@
   "description": "",
   "tools": [
     {
-      "title": "RequireJS",
-      "name": "requirejs",
+      "title": "Require JS",
+      "href": "require",
       "subtitle": ""
     },
     {
-      "title": "CurlJS",
-      "name": "curljs",
+      "title": "Curl JS",
+      "href": "curl",
       "subtitle": ""
     },
     {
-      "title": "AmdJS",
-      "name": "amdjs",
+      "title": "Amd JS",
+      "href": "amd",
       "subtitle": ""
     },
     {
-      "title": "AsyncJS",
-      "name": "asyncjs",
+      "title": "Async JS",
+      "href": "async",
       "subtitle": ""
     }
   ]

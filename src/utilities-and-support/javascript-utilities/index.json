@@ -3,53 +3,53 @@
   "description": "",
   "tools": [
     {
-      "title": "BaconJS",
-      "name": "baconjs",
+      "title": "Bacon JS",
+      "href": "bacon",
       "subtitle": ""
     },
     {
-      "title": "ChanceJS",
-      "name": "chancejs",
+      "title": "Chance JS",
+      "href": "chance",
       "subtitle": ""
     },
     {
       "title": "fn.js",
-      "name": "fnjs",
+      "href": "fnjs",
       "subtitle": ""
     },
     {
       "title": "Lodash",
-      "name": "lodash",
+      "href": "lodash",
       "subtitle": ""
     },
     {
-      "title": "MicroJS",
-      "name": "microjs",
+      "title": "Micro JS",
+      "href": "micro",
       "subtitle": ""
     },
     {
-      "title": "MomentJS",
-      "name": "momentjs",
+      "title": "Moment JS",
+      "href": "moment",
       "subtitle": ""
     },
     {
-      "title": "PromiseJS",
-      "name": "promisejs",
+      "title": "Promise JS",
+      "href": "promise",
       "subtitle": ""
     },
     {
       "title": "q.js",
-      "name": "qjs",
+      "href": "qjs",
       "subtitle": ""
     },
     {
-      "title": "SugarJS",
-      "name": "sugarjs",
+      "title": "Sugar JS",
+      "href": "sugar",
       "subtitle": ""
     },
     {
-      "title": "Underscore.js",
-      "name": "underscorejs",
+      "title": "Underscore JS",
+      "href": "underscore",
       "subtitle": ""
     }
   ]
