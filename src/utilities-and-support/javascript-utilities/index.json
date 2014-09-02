@@ -1,0 +1,56 @@
+{
+  "title": "Javascript Utilities",
+  "description": "",
+  "tools": [
+    {
+      "title": "BaconJS",
+      "name": "baconjs",
+      "subtitle": ""
+    },
+    {
+      "title": "ChanceJS",
+      "name": "chancejs",
+      "subtitle": ""
+    },
+    {
+      "title": "fn.js",
+      "name": "fnjs",
+      "subtitle": ""
+    },
+    {
+      "title": "Lodash",
+      "name": "lodash",
+      "subtitle": ""
+    },
+    {
+      "title": "MicroJS",
+      "name": "microjs",
+      "subtitle": ""
+    },
+    {
+      "title": "MomentJS",
+      "name": "momentjs",
+      "subtitle": ""
+    },
+    {
+      "title": "PromiseJS",
+      "name": "promisejs",
+      "subtitle": ""
+    },
+    {
+      "title": "q.js",
+      "name": "qjs",
+      "subtitle": ""
+    },
+    {
+      "title": "SugarJS",
+      "name": "sugarjs",
+      "subtitle": ""
+    },
+    {
+      "title": "Underscore.js",
+      "name": "underscorejs",
+      "subtitle": ""
+    }
+  ]
+}
