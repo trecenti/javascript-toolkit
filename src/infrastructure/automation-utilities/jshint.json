@@ -1,6 +1,6 @@
 {
   "title": "JSHint",
-  "description": "JSHint is a community-driven tool to detect potential errors and enforce style conventions on the codebase",
+  "description": "JSHint is a community-driven tool to detect potential errors and enforce style conventions on the codebase. Similart to JSLint, but with more support to popular libraries and frameworks.",
   "links": [
     { "name": "Homepage", "href": "http://www.jshint.com/" }
   ],
