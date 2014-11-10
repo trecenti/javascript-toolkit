@@ -1,6 +1,6 @@
 {
   "title": "Gulp",
-  "description": "Javascript build tool, on top of node.js, with great community support and several plugins to process your source files into assets",
+  "description": "Build tool in javascript that lets you process your source files as streams, progmatically, to build your assets",
   "links": [
     { "name": "Homepage", "href": "http://gulpjs.com/" }
   ],
