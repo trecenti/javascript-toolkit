@@ -1,6 +1,6 @@
 {
   "title": "NPM",
-  "description": "This is the node.js package manager, which let you download libraries and manage project's dependencies.",
+  "description": "This is the Node.js package manager, which let you download libraries and manage project's dependencies.",
   "links": [
     { "name": "Homepage", "href": "https://www.npmjs.org/" }
   ],

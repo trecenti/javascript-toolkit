@@ -1,6 +1,6 @@
 {
   "title": "Grunt",
-  "description": "Javascript build tool, on top of node.js, with great community support and several plugins to process your source files into assets",
+  "description": "Javascript build tool, on top of Node.js, with great community support and several plugins to process your source files into assets",
   "links": [
     { "name": "Homepage", "href": "http://gruntjs.com/" }
   ],
