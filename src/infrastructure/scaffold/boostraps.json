@@ -2,7 +2,8 @@
   "title": "Bootstraps",
   "description": "Set of stylesheets that help you re-use visual components like buttons, forms and navbars.",
   "links": [
-    { "name": "Homepage", "href": "" }
+    { "name": "Twitter Bootstrap", "href": "http://getbootstrap.com/" },
+    { "name": "Foundation Framework", "href": "http://foundation.zurb.com/" }
   ],
   "examples": [
     "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
