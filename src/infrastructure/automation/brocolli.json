@@ -1,6 +1,6 @@
 {
   "title": "Brocolli",
-  "description": "A build tool on node.js that process your source files as a dependency tree, with supporto for partial rebuild on file changes.",
+  "description": "A build tool on Node.js that process your source files as a dependency tree, with support for partial re-build on file changes.",
   "links": [
     { "name": "Homepage", "href": "https://github.com/broccolijs" }
   ],
