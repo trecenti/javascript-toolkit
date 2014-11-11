@@ -2,7 +2,9 @@
   "title": "Seed Projects",
   "description": "Projects with initial files created for several different combinations of libraries and framework.",
   "links": [
-    { "name": "Homepage", "href": "" }
+    { "name": "Angular Seed", "href": "https://github.com/angular/angular-seed" },
+    { "name": "Ember Seed", "href": "https://github.com/lowski/ember-seed" },
+    { "name": "Github Search", "href": "https://github.com/search?utf8=%E2%9C%93&q=*-seed&type=Repositories&ref=searchresults" }
   ],
   "examples": [
     "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
