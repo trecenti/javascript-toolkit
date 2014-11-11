@@ -1,6 +1,6 @@
 {
   "title": "Bootstraps",
-  "description": "Set of stylesheets that help you create visual components like buttons, forms and navbars.",
+  "description": "Set of stylesheets that help you re-use visual components like buttons, forms and navbars.",
   "links": [
     { "name": "Homepage", "href": "" }
   ],
