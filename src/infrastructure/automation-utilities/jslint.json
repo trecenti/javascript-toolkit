@@ -1,6 +1,6 @@
 {
   "title": "JSLint",
-  "description": "JSLint is a tool to enforce code style and detect possible mistakes statically.",
+  "description": "JSLint is a tool to enforce code style and detect possible static code syntax mistakes.",
   "links": [
     { "name": "Homepage", "href": "http://www.jslint.com/" }
   ],
