@@ -1,6 +1,6 @@
 {
   "title": "Watir WebDriver",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "description": "Watir WebDriver is a Ruby library that wraps around Selenium WebDriver, with support to javascript execution and interactions.",
   "links": [
     { "name": "Homepage", "href": "http://watirwebdriver.com/javascript-dialogs/" }
   ],

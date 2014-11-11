@@ -1,6 +1,6 @@
 {
   "title": "Protactor",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "description": "Protractor is an end-to-end test framework for AngularJS applications, running on top of Node.js and interacting with your application similar to a user.",
   "links": [
     { "name": "Homepage", "href": "https://github.com/angular/protractor/" }
   ],
