@@ -1,6 +1,6 @@
 {
   "title": "JSHint",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "description": "JSHint is a community-driven tool to detect potential errors and enforce style conventions on the codebase. Similart to JSLint, but with more support to popular libraries and frameworks.",
   "links": [
     { "name": "Homepage", "href": "http://www.jshint.com/" }
   ],

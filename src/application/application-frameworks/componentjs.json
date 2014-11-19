@@ -1,0 +1,11 @@
+{
+  "title": "Component JS",
+  "description": "A library to build interactive components and guide the structuring of user interface elements.",
+  "links": [
+    { "name": "Homepage", "href": "http://componentjs.com/" }
+  ],
+  "examples": [
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Minified",
+  "description": "Minified is a light-weight utility library for DOM-manipulation, date & time, events, animations and much others under a single API.",
+  "links": [
+    { "name": "Homepage", "href": "http://minifiedjs.com/" }
+  ],
+  "examples": [
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
+    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
+  ]
+}

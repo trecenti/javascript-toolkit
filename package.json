@@ -10,7 +10,7 @@
     "node-watch": "^0.3.4",
     "ejs": "^1.0.0",
     "metalsmith-beautify": "0.0.7",
-    "node-sass": "^0.9.3",
+    "node-sass": "0.9.3",
     "morgan": "^1.2.2",
     "express": "^4.8.1",
     "gh-pages": "^0.2.0"

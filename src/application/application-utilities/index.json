@@ -3,6 +3,11 @@
   "description": "",
   "tools": [
     {
+      "title": "Minified",
+      "name": "minified",
+      "subtitle": ""
+    },
+    {
       "title": "Page",
       "name": "page",
       "subtitle": ""
