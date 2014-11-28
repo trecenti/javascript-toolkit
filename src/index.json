@@ -32,9 +32,9 @@
           "href":"end-to-end",
           "tools": [
             { "title": "Protractor", "href": "protractor"},
-            { "title": "CasperJS", "href": "casperjs"},
+            { "title": "CasperJS", "href": "casper-js"},
             { "title": "Nightwatch.js", "href": "nightwatch"},
-            { "title": "Watir WebDriver", "href": "watir"}
+            { "title": "Watir WebDriver", "href": "watir-webdriver"}
           ]
         },
         {
@@ -42,9 +42,9 @@
           "subtitle": "Support libraries for writing and running tests.",
           "href": "test-support",
           "tools": [
-            { "title": "PhantomJS", "href": "phantomjs" },
-            { "title": "Zombie.js", "href": "zombiejs" },
-            { "title": "Sinon.JS", "href": "sinonjs" },
+            { "title": "PhantomJS", "href": "phantom-js" },
+            { "title": "Zombie.js", "href": "zombie-js" },
+            { "title": "Sinon.JS", "href": "sinon" },
             { "title": "Chai", "href": "chai" }
           ]
         }
@@ -65,7 +65,7 @@
             { "title": "Yeoman", "href": "yeoman" },
             { "title": "HTML5 Boilerplate", "href": "html5boilerplate" },
             { "title": "Seed Projects", "href": "seed-projects"},
-            { "title": "Bootstraps", "url": "bootstraps"}
+            { "title": "Bootstraps", "href": "bootstraps"}
           ]
         },
         {
@@ -74,10 +74,8 @@
           "subtitle": "Automate tasks to improve your testing, development and delivery.",
           "tools": [
             { "title": "Grunt", "href": "grunt" },
-            { "title": "Gulp", "href": "gulpjs" },
+            { "title": "Gulp", "href": "gulp" },
             { "title": "Broccoli", "href": "broccoli" },
-            { "title": "ComponentJS", "href": "componentjs" },
-            { "title": "npm", "href": "npm" },
             { "title": "Make", "href": "make" }
           ]
         },
@@ -86,11 +84,9 @@
           "href": "automation-utilities",
           "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
-            { "title": "Minified", "href": "minified" },
             { "title": "UglifyJS", "href": "uglifyjs" },
             { "title": "JSLint", "href": "jslint" },
-            { "title": "JSHint", "href": "jshint" },
-            { "title": "Watch", "href": "watch" }
+            { "title": "JSHint", "href": "jshint" }
           ]
         },
         {
@@ -98,7 +94,6 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower", "href": "bower" },
-            { "title": "ComponentJS", "href": "componentjs" },
             { "title": "npm", "href": "npm" }
           ]
         }
@@ -154,9 +149,9 @@
           "subtitle": "",
           "description": "",
           "tools": [
-            { "title": "coffeescript", "url": "http://coffeescript.org/" },
-            { "title": "clojurescript", "url": "https://github.com/clojure/clojurescript" },
-            { "title": "typescript", "url": "http://www.typescriptlang.org/" }
+            { "title": "coffeescript", "href": "http://coffeescript.org/" },
+            { "title": "clojurescript", "href": "https://github.com/clojure/clojurescript" },
+            { "title": "typescript", "href": "http://www.typescriptlang.org/" }
           ]
         }
       ]
