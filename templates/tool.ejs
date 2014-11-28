@@ -26,12 +26,14 @@
           <% }); %>
         </ul>
       </section>
-      <section>
-        <h2>Examples</h2>
-        <% examples.forEach(function(example) { %>
-            <code><%= example %></code>
-        <% }); %>
-      </section>
+      <% if(examples.length) { %>
+        <section>
+          <h2>Examples</h2>
+          <% examples.forEach(function(example) { %>
+              <code><%= example %></code>
+          <% }); %>
+        </section>
+      <% } %>
     </main>
 
     <% include partials/footer %>
