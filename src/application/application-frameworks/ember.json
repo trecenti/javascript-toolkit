@@ -1,0 +1,9 @@
+{
+  "title": "Ember",
+  "description": "Ember is a framework to build interactive web apps with configuration as convention to improve productivity.",
+  "links": [
+    { "name": "Homepage", "href": "http://emberjs.com" }
+  ],
+  "examples": [
+  ]
+}

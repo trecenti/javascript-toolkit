@@ -1,0 +1,9 @@
+{
+  "title": "React",
+  "description": "A library to build your views, backed by a virtual DOM to speed up the interaction with the rendering engines.",
+  "links": [
+    { "name": "Homepage", "href": "https://facebook.github.io/react/" }
+  ],
+  "examples": [
+  ]
+}

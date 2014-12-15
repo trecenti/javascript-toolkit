@@ -1,0 +1,9 @@
+{
+  "title": "Google Closure",
+  "description": "Google Closure is a cross-browser library for network, DOM manipulation, animation and datastructures.",
+  "links": [
+    { "name": "Homepage", "href": "https://developers.google.com/closure/library/" }
+  ],
+  "examples": [
+  ]
+}
