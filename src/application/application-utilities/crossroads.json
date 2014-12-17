@@ -1,0 +1,9 @@
+{
+  "title": "Crossroads.js",
+  "description": "Crossroads.js is a library for routing URLs on the client side, directing users to specific views under single-page applications.",
+  "links": [
+    { "name": "Homepage", "href": "https://millermedeiros.github.io/crossroads.js/" }
+  ],
+  "examples": [
+  ]
+}

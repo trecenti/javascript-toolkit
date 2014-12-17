@@ -1,0 +1,9 @@
+{
+  "title": "Page.js",
+  "description": "Page.js is a client-side router inspired by Express routes to direct users to specific views.",
+  "links": [
+    { "name": "Homepage", "href": "https://visionmedia.github.io/page.js/" }
+  ],
+  "examples": [
+  ]
+}
