@@ -1,0 +1,9 @@
+{
+  "title": "Director",
+  "description": "Director is a routing library for the browser, that helps you decide which code to run accordig to the URL.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/flatiron/director" }
+  ],
+  "examples": [
+  ]
+}

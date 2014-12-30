@@ -123,9 +123,10 @@
           "title": "Application Utilities",
           "href": "application-utilities",
           "tools": [   
-            { "title": "Page", "href": "page" },
+            { "title": "Page.js", "href": "page" },
             { "title": "Director", "href": "director" },
-            { "title": "Crossroads", "href": "crossroads" }
+            { "title": "Crossroads.js", "href": "crossroads" },
+            { "title": "Minified", "href": "crossroads" }
           ]
         },
         {
