@@ -1,0 +1,9 @@
+{
+  "title": "AngularJS ",
+  "description": "AngularJS is a framework that ships with two-way databind, XHR utilities, model and components for creating interactive webpages",
+  "links": [
+    { "name": "Homepage", "href": "https://angularjs.org/" }
+  ],
+  "examples": [
+  ]
+}

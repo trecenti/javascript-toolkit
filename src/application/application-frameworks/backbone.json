@@ -1,0 +1,9 @@
+{
+  "title": "Backbone.js",
+  "description": "Backbone.js provides structure conventions for web applications, with models, views and RESTful integration, that allows you to integrate with other libraries to provide other functionalities. There are several other frameworks built on top of Backbone.js there comes with more features.",
+  "links": [
+    { "name": "Homepage", "href": "http://backbonejs.org/" }
+  ],
+  "examples": [
+  ]
+}
