@@ -4,22 +4,22 @@
   "tools": [
     {
       "title": "Minified",
-      "name": "minified",
+      "href": "minified",
       "subtitle": ""
     },
     {
       "title": "Page.js",
-      "name": "page",
+      "href": "page",
       "subtitle": ""
     },
     {
       "title": "Director",
-      "name": "director",
+      "href": "director",
       "subtitle": ""
     },
     {
       "title": "Crossroads.js",
-      "name": "crossroads",
+      "href": "crossroads",
       "subtitle": ""
     }
   ]

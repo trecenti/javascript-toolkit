@@ -3,18 +3,28 @@
   "description": "What are the several parts I shoud run within an automation pipeline? Many times they depend on the project specific context. Nevertheless, yout toolkit should contains options enough to allow you to answer the projects needs as soon as they appear.",
   "tools": [
     {
-      "title": "UglifyJS",
-      "name": "uglifyjs",
+      "title": "Minified",
+      "href": "minified",
+      "subtitle": ""
+    },
+    {
+      "title": "Uglify JS",
+      "href": "uglify",
       "subtitle": ""
     },
     {
       "title": "JSLint",
-      "name": "jslint",
+      "href": "jslint",
       "subtitle": ""
     },
     {
       "title": "JSHint",
-      "name": "jshint",
+      "href": "jshint",
+      "subtitle": ""
+    },
+    {
+      "title": "Watch",
+      "href": "Watch",
       "subtitle": ""
     }
   ]

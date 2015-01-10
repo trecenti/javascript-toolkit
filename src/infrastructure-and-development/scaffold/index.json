@@ -4,22 +4,22 @@
   "tools": [
     {
       "title": "Yeoman",
-      "name": "yeoman",
+      "href": "yeoman",
       "subtitle": ""
     },
     {
-      "title": "Html 5 Boilerplate",
-      "name": "html5-boilerplate",
+      "title": "Html5 Boilerplate",
+      "href": "html5-boilerplate",
       "subtitle": ""
     },
     {
       "title": "Seed Projects",
-      "name": "seed-projects",
+      "href": "seed-projects",
       "subtitle": ""
     },
     {
       "title": "Boostraps",
-      "name": "bootstraps",
+      "href": "bootstraps",
       "subtitle": ""
     }
   ]

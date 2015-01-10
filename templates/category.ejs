@@ -16,7 +16,7 @@
 
       <% tools.forEach(function (tool) { %>
         <section>
-          <h2><a href="<%= tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></h2>
+          <h2><a href="<%= tool.href ? tool.href : tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></h2>
           <p><%= tool.description %></p>
         </section>
       <% }); %>

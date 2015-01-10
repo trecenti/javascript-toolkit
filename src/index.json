@@ -2,9 +2,9 @@
   "categories": [
     {
       "title": "Testing",
+      "subtitle": "Everything from writing tests to your application to displaying its results.",
       "img": "/images/testing.png",
       "href": "testing",
-      "subtitle": "Everything from writing tests to your application to displaying its results.",
       "description": "What do software automation, quality, changeability, and continuous delivery have in common? Testing. Testing is a key factor to produce software of value, and its importance can never be diminished. Here you will find tools that help to write your tests, create mocks and stubs when needed. Run them and get the right feedback, as well as automate them to integrate with your build pipeline.",
       "categories": [
         {
@@ -32,7 +32,7 @@
           "href":"end-to-end",
           "tools": [
             { "title": "Protractor", "href": "protractor"},
-            { "title": "CasperJS", "href": "casper-js"},
+            { "title": "CasperJS", "href": "casper"},
             { "title": "Nightwatch.js", "href": "nightwatch"},
             { "title": "Watir WebDriver", "href": "watir-webdriver"}
           ]
@@ -42,19 +42,19 @@
           "subtitle": "Support libraries for writing and running tests.",
           "href": "test-support",
           "tools": [
-            { "title": "PhantomJS", "href": "phantom-js" },
-            { "title": "Zombie.js", "href": "zombie-js" },
-            { "title": "Sinon.JS", "href": "sinon" },
+            { "title": "Phantom JS", "href": "phantom" },
+            { "title": "Zombie JS", "href": "zombie" },
+            { "title": "Sinon JS", "href": "sinon" },
             { "title": "Chai", "href": "chai" }
           ]
         }
       ]
     },
     {
-      "title": "Infrastructure",
-      "img": "/images/infrastructure.png",
-      "href": "infrastructure",
+      "title": "Infrastructure & Development",
       "subtitle": "Your toolbox for fast and easy development.",
+      "img": "/images/infrastructure-and-development.png",
+      "href": "infrastructure-and-development",
       "description": "We usually think in terms of the libraries that will give support to the application we are developing. And what about the software that will speed up and ease our development? This can include task automation, project easy configuration, dependency management and much more. ",
       "categories": [
         {
@@ -63,7 +63,7 @@
           "subtitle": "Good practices and templates to speed up your project start.",
           "tools": [
             { "title": "Yeoman", "href": "yeoman" },
-            { "title": "HTML5 Boilerplate", "href": "html5boilerplate" },
+            { "title": "HTML5 Boilerplate", "href": "html5-boilerplate" },
             { "title": "Seed Projects", "href": "seed-projects"},
             { "title": "Bootstraps", "href": "bootstraps"}
           ]
@@ -94,7 +94,18 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower", "href": "bower" },
+            { "title": "ComponentJS", "href": "component" },
             { "title": "npm", "href": "npm" }
+          ]
+        },
+        {
+          "title": "Other Languages",
+          "subtitle": "",
+          "description": "",
+          "tools": [
+            { "title": "coffeescript", "href": "coffee-script" },
+            { "title": "clojurescript", "href": "clojure-script" },
+            { "title": "typescript", "href": "type-script" }
           ]
         }
       ]
@@ -103,14 +114,14 @@
       "title": "Application & Product",
       "subtitle": "All the help you need to build your application.",
       "img": "/images/application-and-product.png",
-      "href": "application",
+      "href": "application-and-product",
       "description": "Applications made to run on the web are getting complex. We are now being able to build in the browser, applications with a behavior as rich as desktop ones. Nevertheless, is all html. We need frameworks that allow us to extend html to support a rich front-end development.",
       "categories": [
         {
           "title": "Application Frameworks",
           "href": "application-frameworks",
           "tools": [
-            { "title": "AngularJS", "href": "angularjs" },
+            { "title": "Angular JS", "href": "angular" },
             { "title": "Backbone", "href": "backbone" },
             { "title": "Ember", "href": "ember" },
             { "title": "Component JS", "href": "componentjs" },
@@ -122,7 +133,7 @@
         {
           "title": "Application Utilities",
           "href": "application-utilities",
-          "tools": [   
+          "tools": [
             { "title": "Page.js", "href": "page" },
             { "title": "Director", "href": "director" },
             { "title": "Crossroads.js", "href": "crossroads" },
@@ -133,42 +144,45 @@
           "title": "Dynamic Loading",
           "href": "dynamic-loding",
           "tools": [
-            { "title": "RequireJS", "href": "requirejs" },
-            { "title": "CurlJS", "href": "curljs" },
-            { "title": "AmdJS", "href": "amdjs" },
-            { "title": "AsyncJS", "href": "asyncjs" }
-          ]
-        }
-      ]
-    },    {
-      "title": "Development",
-      "subtitle": "Sub title",
-      "img": "/images/development.png",
-      "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
-      "categories": [
-        {
-          "title": "Other Languages",
-          "subtitle": "",
-          "description": "",
-          "tools": [
-            { "title": "coffeescript", "href": "http://coffeescript.org/" },
-            { "title": "clojurescript", "href": "https://github.com/clojure/clojurescript" },
-            { "title": "typescript", "href": "http://www.typescriptlang.org/" }
+            { "title": "RequireJS", "href": "require" },
+            { "title": "CurlJS", "href": "curl" },
+            { "title": "AmdJS", "href": "amd" },
+            { "title": "AsyncJS", "href": "async" }
           ]
         }
       ]
     },
     {
       "title": "Utilities & Support",
-      "subtitle": "Sub title",
+      "subtitle": "O whole set of tools to help your development and application in many ways.",
+      "href": "utilities-and-support",
       "img": "/images/utilities-and-support.png",
       "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
       "categories": [
         {
-          "title": "Sub-Category",
+          "title": "DOM Utilities",
+          "href": "dom-utilities",
           "tools": [
-            { "title": "Tool 1" },
-            { "title": "Tool 2" }
+            { "title": "JQuery", "href": "jquery" },
+            { "title": "Zepto", "href": "zepto" },
+            { "title": "Polymer", "href": "polymer" },
+            { "title": "Prototype", "href": "prototype" }
+          ]
+        },
+        {
+          "title": "Javascript Utilities",
+          "href": "javascript-utilities",
+          "tools": [
+            { "title": "Lodash", "href": "lodash" },
+            { "title": "Underscore", "href": "underscore" },
+            { "title": "Promise JS", "href": "promise" },
+            { "title": "fn.js", "href": "fnjs" },
+            { "title": "q.js", "href": "qjs" },
+            { "title": "Bacon JS", "href": "bacon" },
+            { "title": "Chance JS", "href": "chance" },
+            { "title": "Sugar JS", "href": "sugar" },
+            { "title": "Moment JS", "href": "moment" },
+            { "title": "Micro JS", "href": "micro" }
           ]
         }
       ]

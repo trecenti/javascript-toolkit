@@ -4,22 +4,32 @@
   "tools": [
     {
       "title": "Grunt",
-      "name": "grunt",
+      "href": "grunt",
       "subtitle": ""
     },
     {
       "title": "Gulp",
-      "name": "gulp",
+      "href": "gulp",
       "subtitle": ""
     },
     {
-      "title": "Brocolli",
-      "name": "brocolli",
+      "title": "Broccoli",
+      "href": "broccoli",
+      "subtitle": ""
+    },
+    {
+      "title": "Component JS",
+      "href": "component",
+      "subtitle": ""
+    },
+    {
+      "title": "NPM",
+      "href": "npm",
       "subtitle": ""
     },
     {
       "title": "Make",
-      "name": "make",
+      "href": "make",
       "subtitle": ""
     }
   ]

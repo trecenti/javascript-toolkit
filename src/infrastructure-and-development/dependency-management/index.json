@@ -4,12 +4,12 @@
   "tools": [
     {
       "title": "Bower",
-      "name": "bower",
+      "href": "bower",
       "subtitle": ""
     },
     {
       "title": "NPM",
-      "name": "npm",
+      "href": "npm",
       "subtitle": ""
     }
   ]
