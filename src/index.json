@@ -32,11 +32,7 @@
           "href":"end-to-end",
           "tools": [
             { "title": "Protractor", "href": "protractor"},
-<<<<<<< HEAD
-            { "title": "CasperJS", "href": "casper-js"},
-=======
             { "title": "CasperJS", "href": "casper"},
->>>>>>> Fix links and namings.
             { "title": "Nightwatch.js", "href": "nightwatch"},
             { "title": "Watir WebDriver", "href": "watir-webdriver"}
           ]
@@ -46,15 +42,9 @@
           "subtitle": "Support libraries for writing and running tests.",
           "href": "test-support",
           "tools": [
-<<<<<<< HEAD
-            { "title": "PhantomJS", "href": "phantom-js" },
-            { "title": "Zombie.js", "href": "zombie-js" },
-            { "title": "Sinon.JS", "href": "sinon" },
-=======
             { "title": "Phantom JS", "href": "phantom" },
             { "title": "Zombie JS", "href": "zombie" },
             { "title": "Sinon JS", "href": "sinon" },
->>>>>>> Fix links and namings.
             { "title": "Chai", "href": "chai" }
           ]
         }
@@ -86,11 +76,6 @@
             { "title": "Grunt", "href": "grunt" },
             { "title": "Gulp", "href": "gulp" },
             { "title": "Broccoli", "href": "broccoli" },
-<<<<<<< HEAD
-=======
-            { "title": "ComponentJS", "href": "component" },
-            { "title": "npm", "href": "npm" },
->>>>>>> Fix links and namings.
             { "title": "Make", "href": "make" }
           ]
         },
@@ -99,12 +84,7 @@
           "href": "automation-utilities",
           "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
-<<<<<<< HEAD
             { "title": "UglifyJS", "href": "uglifyjs" },
-=======
-            { "title": "Minified", "href": "minified" },
-            { "title": "UglifyJS", "href": "uglify" },
->>>>>>> Fix links and namings.
             { "title": "JSLint", "href": "jslint" },
             { "title": "JSHint", "href": "jshint" }
           ]
@@ -114,10 +94,7 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower", "href": "bower" },
-<<<<<<< HEAD
-=======
             { "title": "ComponentJS", "href": "component" },
->>>>>>> Fix links and namings.
             { "title": "npm", "href": "npm" }
           ]
         },
@@ -186,26 +163,26 @@
           "title": "DOM Utilities",
           "href": "dom-utilities",
           "tools": [
-            { "title": "JQuery", "href": "jquery" }, 
-            { "title": "Zepto", "href": "zepto" }, 
-            { "title": "Polymer", "href": "polymer" }, 
-            { "title": "Prototype", "href": "prototype" } 
+            { "title": "JQuery", "href": "jquery" },
+            { "title": "Zepto", "href": "zepto" },
+            { "title": "Polymer", "href": "polymer" },
+            { "title": "Prototype", "href": "prototype" }
           ]
         },
         {
           "title": "Javascript Utilities",
           "href": "javascript-utilities",
           "tools": [
-            { "title": "Lodash", "href": "lodash" }, 
-            { "title": "Underscore", "href": "underscore" }, 
-            { "title": "Promise JS", "href": "promise" }, 
-            { "title": "fn.js", "href": "fnjs" }, 
-            { "title": "q.js", "href": "qjs" }, 
-            { "title": "Bacon JS", "href": "bacon" }, 
-            { "title": "Chance JS", "href": "chance" }, 
-            { "title": "Sugar JS", "href": "sugar" }, 
-            { "title": "Moment JS", "href": "moment" }, 
-            { "title": "Micro JS", "href": "micro" } 
+            { "title": "Lodash", "href": "lodash" },
+            { "title": "Underscore", "href": "underscore" },
+            { "title": "Promise JS", "href": "promise" },
+            { "title": "fn.js", "href": "fnjs" },
+            { "title": "q.js", "href": "qjs" },
+            { "title": "Bacon JS", "href": "bacon" },
+            { "title": "Chance JS", "href": "chance" },
+            { "title": "Sugar JS", "href": "sugar" },
+            { "title": "Moment JS", "href": "moment" },
+            { "title": "Micro JS", "href": "micro" }
           ]
         }
       ]
