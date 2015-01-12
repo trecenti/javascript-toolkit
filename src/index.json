@@ -94,7 +94,6 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower" },
-            { "title": "ComponentJS" },
             { "title": "npm" }
           ]
         },
