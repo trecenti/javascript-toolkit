@@ -86,7 +86,8 @@
           "tools": [
             { "title": "UglifyJS" },
             { "title": "JSLint" },
-            { "title": "JSHint" }
+            { "title": "JSHint" },
+            { "title": "Watch" }
           ]
         },
         {
