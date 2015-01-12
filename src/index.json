@@ -32,7 +32,7 @@
           "href":"end-to-end",
           "tools": [
             { "title": "Protractor", "href": "protractor"},
-            { "title": "CasperJS", "href": "casper"},
+            { "title": "Casper JS", "href": "casper"},
             { "title": "Nightwatch.js", "href": "nightwatch"},
             { "title": "Watir WebDriver", "href": "watir-webdriver"}
           ]
@@ -84,7 +84,7 @@
           "href": "automation-utilities",
           "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
-            { "title": "UglifyJS", "href": "uglifyjs" },
+            { "title": "Uglify JS", "href": "uglifyjs" },
             { "title": "JSLint", "href": "jslint" },
             { "title": "JSHint", "href": "jshint" }
           ]
@@ -94,7 +94,7 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower", "href": "bower" },
-            { "title": "ComponentJS", "href": "component" },
+            { "title": "Component JS", "href": "component" },
             { "title": "npm", "href": "npm" }
           ]
         },
@@ -144,10 +144,10 @@
           "title": "Dynamic Loading",
           "href": "dynamic-loding",
           "tools": [
-            { "title": "RequireJS", "href": "require" },
-            { "title": "CurlJS", "href": "curl" },
-            { "title": "AmdJS", "href": "amd" },
-            { "title": "AsyncJS", "href": "async" }
+            { "title": "Require JS", "href": "require" },
+            { "title": "Curl JS", "href": "curl" },
+            { "title": "Amd JS", "href": "amd" },
+            { "title": "Async JS", "href": "async" }
           ]
         }
       ]
