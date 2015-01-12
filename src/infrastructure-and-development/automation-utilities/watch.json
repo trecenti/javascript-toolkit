@@ -1,11 +1,9 @@
 {
-  "title": "Grunt",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "title": "Watch",
+  "description": "Watch helps your development process by monitoring your file system waiting for changes and executing tasks when they happen.",
   "links": [
-    { "name": "Homepage", "href": "http://gruntjs.com/" }
+    { "name": "Homepage", "href": "https://www.npmjs.com/package/watch" }
   ],
   "examples": [
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
   ]
 }

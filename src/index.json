@@ -86,7 +86,8 @@
           "tools": [
             { "title": "UglifyJS" },
             { "title": "JSLint" },
-            { "title": "JSHint" }
+            { "title": "JSHint" },
+            { "title": "Watch" }
           ]
         },
         {
@@ -94,8 +95,7 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower" },
-            { "title": "ComponentJS" },
-            { "title": "npm" }
+            { "title": "NPM" }
           ]
         },
         {
