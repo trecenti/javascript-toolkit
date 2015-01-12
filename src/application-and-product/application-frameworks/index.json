@@ -1,41 +1,4 @@
 {
   "title": "Application Frameworks",
-  "description": "",
-  "tools": [
-    {
-      "title": "Angular JS",
-      "href": "angular",
-      "subtitle": ""
-    },
-    {
-      "title": "Backbone",
-      "href": "backbone",
-      "subtitle": ""
-    },
-    {
-      "title": "Component JS",
-      "href": "componentjs",
-      "subtitle": ""
-    },
-    {
-      "title": "Ember",
-      "href": "ember",
-      "subtitle": ""
-    },
-    {
-      "title": "Knockout",
-      "href": "knockout",
-      "subtitle": ""
-    },
-    {
-      "title": "React",
-      "href": "react",
-      "subtitle": ""
-    },
-    {
-      "title": "Google Closure",
-      "href": "google-closure",
-      "subtitle": ""
-    }
-  ]
+  "description": "Frameworks provides you with an opinionated structure that helps you build your application faster."
 }

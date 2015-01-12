@@ -1,26 +1,4 @@
 {
   "title": "Dynamic Loading",
-  "description": "",
-  "tools": [
-    {
-      "title": "Require JS",
-      "href": "require",
-      "subtitle": ""
-    },
-    {
-      "title": "Curl JS",
-      "href": "curl",
-      "subtitle": ""
-    },
-    {
-      "title": "Amd JS",
-      "href": "amd",
-      "subtitle": ""
-    },
-    {
-      "title": "Async JS",
-      "href": "async",
-      "subtitle": ""
-    }
-  ]
+  "description": "Sometimes your dependencies could be loaded after the page already has some Javascript enabled behaviours, letting the user interact with the application while you retrieve the remaining code on the background. This is what the Dynamic Loading libraries provide you."
 }

@@ -1,26 +1,4 @@
 {
   "title": "End to End",
-  "description": "Test the whole flow of your application.",
-  "tools": [
-    {
-      "title": "Protractor",
-      "href": "protractor",
-      "subtitle": ""
-    },
-    {
-      "title": "Casper JS",
-      "href": "casper",
-      "subtitle": ""
-    },
-    {
-      "title": "Nightwatch",
-      "href": "nightwatch",
-      "subtitle": ""
-    },
-    {
-      "title": "Watir WebDriver",
-      "href": "watir",
-      "subtitle": ""
-    }
-  ]
+  "description": "Test the whole flow of your application."
 }

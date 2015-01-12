@@ -1,21 +1,4 @@
 {
   "title": "Other Languages",
-  "description": "There are a few other languages that were written that compile to Javascript. You can use any of them according to your taste or your tem preference.",
-  "tools": [
-    {
-      "title": "Coffee Script",
-      "href": "coffee-script",
-      "subtitle": ""
-    },
-    {
-      "title": "Clojure Script",
-      "href": "clojure-script",
-      "subtitle": ""
-    },
-    {
-      "title": "Type Script",
-      "href": "type-script",
-      "subtitle": ""
-    }
-  ]
+  "description": "There are a few other languages that were written that compile to Javascript. You can use any of them according to your taste or your tem preference."
 }
