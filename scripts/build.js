@@ -5,6 +5,10 @@ var Metalsmith = require('metalsmith')
   , sass = require('node-sass')
   ;
 
+ejs.filters.id = function (text) {
+  return text.toLowerCase().replace(/\s/g, '-');
+}
+
 var templates = {};
 
 templates.home = ejs.compile(
@@ -17,34 +21,70 @@ templates.category = ejs.compile(
   { filename: './templates/category.ejs' }
 );
 
-templates.tool = ejs.compile(
-  fs.readFileSync('./templates/tool.ejs', 'UTF-8'),
-  { filename: './templates/tool.ejs' }
-);
-
 function createFileFromTemplate(data, template) {
   return { contents: template(data) };
 }
 
+function byJson(file) {
+  return /\.json$/.test(file);
+}
+
+function onlyIndex(file) {
+  return file === 'index.json';
+}
+
+function byCategoryFiles(file) {
+  return (file.split('/').length === 3 && /.*index\.json$/.test(file));
+}
+
+function samePath(file) {
+  var path = file.replace(/index\.json$/, '');
+
+  return function (anotherFile) {
+    return anotherFile.indexOf(path) >= 0;
+  };
+}
+
+function notSame(file) {
+  return function (anotherFile) {
+    return anotherFile !== file;
+  };
+}
+
+function buildHtml(files, file) {
+  return {
+    data: JSON.parse(files[file].contents),
+    htmlFile: file.replace(/\.json$/, '.html'),
+    file: file
+  }
+}
+
 function ejsTemplates(files, metalsmith, done) {
-  Object.keys(files).forEach(function (file) {
-    var data, htmlFile;
+  var jsonFiles = Object.keys(files).filter(byJson);
 
-    if (!/\.json$/.test(file)) {
-      return;
-    }
+  jsonFiles
+    .filter(onlyIndex)
+    .map(buildHtml.bind(buildHtml, files))
+    .forEach(function (info) {
+      files[info.htmlFile] = createFileFromTemplate(info.data, templates.home);
+    });
 
-    data = JSON.parse(files[file].contents);
-    htmlFile = file.replace(/\.json$/, '.html');
-
-    if (file === 'index.json') {
-      files[htmlFile] = createFileFromTemplate(data, templates.home);
-    } else if (file.split('/').length === 3 && /.*index\.json$/.test(file)) {
-      files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.category);
-    } else {
-      files[htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(data, templates.tool);
-    }
-  });
+  jsonFiles
+    .filter(byCategoryFiles)
+    .map(buildHtml.bind(buildHtml, files))
+    .map(function (info) {
+      info.data.tools = Object.keys(files)
+        .filter(byJson)
+        .filter(notSame(info.file))
+        .filter(samePath(info.file))
+        .map(buildHtml.bind(buildHtml, files))
+        .map(function (info) {
+          return info.data;
+        });
+      return info;
+    }).forEach(function (info) {
+      files[info.htmlFile.split('/').slice(1).join('/')] = createFileFromTemplate(info.data, templates.category);
+    });
 
   done();
 };

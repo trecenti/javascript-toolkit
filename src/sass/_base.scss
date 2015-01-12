@@ -31,10 +31,6 @@ main {
     box-sizing: border-box;
     padding: $default-spacing;
 
-    & + section {
-      border-top: 1px solid $grey;
-    }
-
     & > a[id] {
       display: block;
       top: (-$default-spacing - $header-height);
@@ -54,7 +50,7 @@ main {
   }
 }
 
-header {
+body > header {
   border-bottom: 1px solid $grey;
   padding: ($default-spacing / 4) $default-spacing;
 
