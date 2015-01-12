@@ -1,26 +1,4 @@
 {
   "title": "DOM Utilities",
-  "description": "",
-  "tools": [
-    {
-      "title": "JQuery",
-      "href": "jquery",
-      "subtitle": ""
-    },
-    {
-      "title": "Zepto",
-      "href": "zepto",
-      "subtitle": ""
-    },
-    {
-      "title": "Polymer",
-      "href": "polymer",
-      "subtitle": ""
-    },
-    {
-      "title": "Prototype",
-      "href": "prototype",
-      "subtitle": ""
-    }
-  ]
+  "description": "DOM Utilities are Javascript libraries to help you come across difference on the API of different browsers, exposing an standard interface when manipulating the rendered elements. Some of those tools also provide extra utilities, like animations or data loading."
 }

@@ -1,26 +1,4 @@
 {
   "title": "Application Utilities",
-  "description": "",
-  "tools": [
-    {
-      "title": "Minified",
-      "href": "minified",
-      "subtitle": ""
-    },
-    {
-      "title": "Page.js",
-      "href": "page",
-      "subtitle": ""
-    },
-    {
-      "title": "Director",
-      "href": "director",
-      "subtitle": ""
-    },
-    {
-      "title": "Crossroads.js",
-      "href": "crossroads",
-      "subtitle": ""
-    }
-  ]
+  "description": "Applications Utilities add common behaviours that are framework independent."
 }

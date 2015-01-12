@@ -1,16 +1,4 @@
 {
   "title": "Test Runners",
-  "description": "Environments for easy testing.",
-  "tools": [
-    {
-      "title": "Karma",
-      "name": "karma",
-      "subtitle": ""
-    },
-    {
-      "title": "SauceLabs",
-      "name": "saucelabs",
-      "subtitle": ""
-    }
-  ]
+  "description": "Environments for easy testing."
 }
