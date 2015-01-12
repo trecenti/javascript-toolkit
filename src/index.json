@@ -94,7 +94,7 @@
           "href": "dependency-management",
           "tools": [
             { "title": "Bower" },
-            { "title": "npm" }
+            { "title": "NPM" }
           ]
         },
         {
