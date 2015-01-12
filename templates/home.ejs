@@ -13,10 +13,10 @@
       <section class="categories">
         <% categories.forEach(function (category) { %>
           <article>
-            <a href="#<%= category.href ? category.href : category.title.toLowerCase().replace(/\s/g, '-') %>">
+            <a href="#<%=: category.title | id %>">
               <img src="<%= category.img %>" alt="<%= category.title %>"></img>
             </a>
-            <h2><a href="#<%= category.href ? category.href : category.title.toLowerCase().replace(/\s/g, '-') %>"><%= category.title %></a></h2>
+            <h2><a href="#<%=: category.title | id %>"><%= category.title %></a></h2>
             <p><%= category.subtitle %></p>
           </article>
         <% }); %>
@@ -24,16 +24,16 @@
 
       <% categories.forEach(function (category) { %>
         <section>
-          <a id="<%=  category.href ? category.href : category.title.toLowerCase().replace(/\s/g, '-') %>"></a>
+          <a id="<%=:  category.title | id %>"></a>
           <h1><%= category.title %></h1>
           <p><%= category.description %></p>
           <section class="sub-categories">
             <% category.categories.forEach(function (subCategory) { %>
               <article>
-                <h3><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>"><%= subCategory.title %></a></h3>
+                <h3><a href="<%=: subCategory.title | id %>"><%= subCategory.title %></a></h3>
                 <ul>
                   <% subCategory.tools.forEach(function (tool) { %>
-                    <li><a href="<%= subCategory.title.toLowerCase().replace(/\s/g, '-') %>/<%= tool.href %>.html"><%= tool.title %></a></li>
+                    <li><a href="<%=: subCategory.title | id %>/#<%=: tool.title | id %>"><%= tool.title %></a></li>
                   <% }); %>
                 </ul>
               </article>

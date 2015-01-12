@@ -1,3 +1,15 @@
 @import "base";
 
 @include fixed-header;
+
+main > section {
+  & + section {
+    border-top: 1px solid $grey;
+  }
+
+  header {
+    h2 {
+      color: $cool-sky-blue;
+    }
+  }
+}

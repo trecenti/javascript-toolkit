@@ -4,6 +4,9 @@
 
 main {
   section {
+    & + section {
+      border-top: 1px solid $grey;
+    }
 
     article {
       text-align: center;

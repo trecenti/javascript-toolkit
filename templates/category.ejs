@@ -15,9 +15,32 @@
       </section>
 
       <% tools.forEach(function (tool) { %>
-        <section>
-          <h2><a href="<%= tool.href ? tool.href : tool.title.toLowerCase().replace(/\s/g, '-') %>.html"><%= tool.title %></a></h2>
-          <p><%= tool.subtitle %></p>
+          <section>
+            <a id="<%=: tool.title | id %>"></a>
+            <header>
+              <h2><%= tool.title %></h2>
+              <p><%= tool.description %></p>
+            </header>
+
+            <section>
+              <h3>Links</h3>
+              <ul>
+                <% tool.links.forEach(function(link) { %>
+                <li>
+                <label><%= link.name %></label>
+                <a href="<%= link.href %>" target="_blank"><%= link.href %></a>
+                </li>
+                <% }); %>
+              </ul>
+            </section>
+            <% if(tool.examples && tool.examples.length) { %>
+              <section>
+                <h3>Examples</h3>
+                <% tool.examples.forEach(function(example) { %>
+                <code><%= example %></code>
+                <% }); %>
+              </section>
+            <% } %>
         </section>
       <% }); %>
     </main>

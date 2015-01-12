@@ -26,7 +26,6 @@ it will output:
 /build
   |__/sub-category
   |  |__index.html
-  |  |__tool.html
   |__index.html
 ```
 
@@ -36,7 +35,7 @@ The template will be selected based on where the `.json` is located and its name
 
 `/src/category/sub-category/index.json` uses `/templates/category.ejs`
 
-`/src/category/sub-category/tool.json` uses `/templates/tool.ejs`
+`/src/category/sub-category/tool.json` will be baked into `/templates/category.ejs`
 
 ### Scripts
 

@@ -12,8 +12,8 @@
           "subtitle": "Environments for easy testing.",
           "href": "test-runners",
           "tools": [
-            { "title": "Karma" , "href": "karma" },
-            { "title": "Sauce Labs", "href": "saucelabs" }
+            { "title": "Karma"  },
+            { "title": "Sauce Labs" }
           ]
         },
         {
@@ -21,9 +21,9 @@
           "subtitle": "Tools to allow you write your tests.",
           "href": "frameworks",
           "tools": [
-            { "title": "Jasmine", "href": "jasmine" },
-            { "title": "Mocha", "href": "mocha" },
-            { "title": "QUnit", "href": "qunit" }
+            { "title": "Jasmine" },
+            { "title": "Mocha" },
+            { "title": "QUnit" }
           ]
         },
         {
@@ -31,10 +31,10 @@
           "subtitle": "Test the whole flow of your application.",
           "href":"end-to-end",
           "tools": [
-            { "title": "Protractor", "href": "protractor"},
-            { "title": "Casper JS", "href": "casper"},
-            { "title": "Nightwatch.js", "href": "nightwatch"},
-            { "title": "Watir WebDriver", "href": "watir-webdriver"}
+            { "title": "Protractor"},
+            { "title": "CasperJS"},
+            { "title": "Nightwatch.js"},
+            { "title": "Watir WebDriver"}
           ]
         },
         {
@@ -42,10 +42,10 @@
           "subtitle": "Support libraries for writing and running tests.",
           "href": "test-support",
           "tools": [
-            { "title": "Phantom JS", "href": "phantom" },
-            { "title": "Zombie JS", "href": "zombie" },
-            { "title": "Sinon JS", "href": "sinon" },
-            { "title": "Chai", "href": "chai" }
+            { "title": "Phantom JS" },
+            { "title": "Zombie JS" },
+            { "title": "Sinon JS" },
+            { "title": "Chai" }
           ]
         }
       ]
@@ -62,10 +62,10 @@
           "href": "scaffold",
           "subtitle": "Good practices and templates to speed up your project start.",
           "tools": [
-            { "title": "Yeoman", "href": "yeoman" },
-            { "title": "HTML5 Boilerplate", "href": "html5-boilerplate" },
-            { "title": "Seed Projects", "href": "seed-projects"},
-            { "title": "Bootstraps", "href": "bootstraps"}
+            { "title": "Yeoman" },
+            { "title": "HTML5 Boilerplate" },
+            { "title": "Seed Projects"},
+            { "title": "Bootstraps"}
           ]
         },
         {
@@ -73,10 +73,10 @@
           "href": "automation",
           "subtitle": "Automate tasks to improve your testing, development and delivery.",
           "tools": [
-            { "title": "Grunt", "href": "grunt" },
-            { "title": "Gulp", "href": "gulp" },
-            { "title": "Broccoli", "href": "broccoli" },
-            { "title": "Make", "href": "make" }
+            { "title": "Grunt" },
+            { "title": "Gulp" },
+            { "title": "Broccoli" },
+            { "title": "Make" }
           ]
         },
         {
@@ -84,18 +84,18 @@
           "href": "automation-utilities",
           "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
-            { "title": "Uglify JS", "href": "uglifyjs" },
-            { "title": "JSLint", "href": "jslint" },
-            { "title": "JSHint", "href": "jshint" }
+            { "title": "UglifyJS" },
+            { "title": "JSLint" },
+            { "title": "JSHint" }
           ]
         },
         {
           "title": "Dependency Management",
           "href": "dependency-management",
           "tools": [
-            { "title": "Bower", "href": "bower" },
-            { "title": "Component JS", "href": "component" },
-            { "title": "npm", "href": "npm" }
+            { "title": "Bower" },
+            { "title": "ComponentJS" },
+            { "title": "npm" }
           ]
         },
         {
@@ -103,9 +103,9 @@
           "subtitle": "",
           "description": "",
           "tools": [
-            { "title": "coffeescript", "href": "coffee-script" },
-            { "title": "clojurescript", "href": "clojure-script" },
-            { "title": "typescript", "href": "type-script" }
+            { "title": "coffeescript" },
+            { "title": "clojurescript" },
+            { "title": "typescript" }
           ]
         }
       ]
@@ -121,33 +121,33 @@
           "title": "Application Frameworks",
           "href": "application-frameworks",
           "tools": [
-            { "title": "Angular JS", "href": "angular" },
-            { "title": "Backbone", "href": "backbone" },
-            { "title": "Ember", "href": "ember" },
-            { "title": "Component JS", "href": "componentjs" },
-            { "title": "Knockout", "href": "knockout" },
-            { "title": "React", "href": "react" },
-            { "title": "Google Closure", "href": "google-closure" }
+            { "title": "Angular JS" },
+            { "title": "Backbone" },
+            { "title": "Ember" },
+            { "title": "Component JS" },
+            { "title": "Knockout" },
+            { "title": "React" },
+            { "title": "Google Closure" }
           ]
         },
         {
           "title": "Application Utilities",
           "href": "application-utilities",
           "tools": [
-            { "title": "Page.js", "href": "page" },
-            { "title": "Director", "href": "director" },
-            { "title": "Crossroads.js", "href": "crossroads" },
-            { "title": "Minified", "href": "crossroads" }
+            { "title": "Page.js" },
+            { "title": "Director" },
+            { "title": "Crossroads.js" },
+            { "title": "Minified" }
           ]
         },
         {
           "title": "Dynamic Loading",
           "href": "dynamic-loding",
           "tools": [
-            { "title": "Require JS", "href": "require" },
-            { "title": "Curl JS", "href": "curl" },
-            { "title": "Amd JS", "href": "amd" },
-            { "title": "Async JS", "href": "async" }
+            { "title": "RequireJS" },
+            { "title": "CurlJS" },
+            { "title": "AmdJS" },
+            { "title": "AsyncJS" }
           ]
         }
       ]
@@ -163,26 +163,26 @@
           "title": "DOM Utilities",
           "href": "dom-utilities",
           "tools": [
-            { "title": "JQuery", "href": "jquery" },
-            { "title": "Zepto", "href": "zepto" },
-            { "title": "Polymer", "href": "polymer" },
-            { "title": "Prototype", "href": "prototype" }
+            { "title": "JQuery" },
+            { "title": "Zepto" },
+            { "title": "Polymer" },
+            { "title": "Prototype" }
           ]
         },
         {
           "title": "Javascript Utilities",
           "href": "javascript-utilities",
           "tools": [
-            { "title": "Lodash", "href": "lodash" },
-            { "title": "Underscore", "href": "underscore" },
-            { "title": "Promise JS", "href": "promise" },
-            { "title": "fn.js", "href": "fnjs" },
-            { "title": "q.js", "href": "qjs" },
-            { "title": "Bacon JS", "href": "bacon" },
-            { "title": "Chance JS", "href": "chance" },
-            { "title": "Sugar JS", "href": "sugar" },
-            { "title": "Moment JS", "href": "moment" },
-            { "title": "Micro JS", "href": "micro" }
+            { "title": "Lo-Dash" },
+            { "title": "Underscore" },
+            { "title": "Promise JS" },
+            { "title": "fn.js" },
+            { "title": "q.js" },
+            { "title": "Bacon JS" },
+            { "title": "Chance JS" },
+            { "title": "Sugar JS" },
+            { "title": "Moment JS" },
+            { "title": "Micro JS" }
           ]
         }
       ]
