@@ -175,7 +175,6 @@
           "tools": [
             { "title": "Lo-Dash" },
             { "title": "Underscore" },
-            { "title": "Promise JS" },
             { "title": "fn.js" },
             { "title": "q.js" },
             { "title": "Bacon JS" },
