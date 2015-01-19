@@ -1,11 +1,9 @@
 {
-  "title": "Zepto",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "title": "Zepto JS",
+  "description": "Zepto is a library very similar to jQuery, although it's very small and focused on modern browsers only.",
   "links": [
     { "name": "Homepage", "href": "http://zeptojs.com/" }
   ],
   "examples": [
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
   ]
 }
