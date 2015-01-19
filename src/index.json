@@ -144,10 +144,10 @@
           "title": "Dynamic Loading",
           "href": "dynamic-loding",
           "tools": [
+            { "title": "Browserify" },
             { "title": "RequireJS" },
-            { "title": "CurlJS" },
-            { "title": "AmdJS" },
-            { "title": "AsyncJS" }
+            { "title": "curl.js" },
+            { "title": "Webpack" }
           ]
         }
       ]
@@ -182,6 +182,7 @@
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
             { "title": "Moment JS" },
+            { "title": "Async" },
             { "title": "Micro JS" }
           ]
         }

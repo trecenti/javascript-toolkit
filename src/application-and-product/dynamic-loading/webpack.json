@@ -1,0 +1,9 @@
+{
+  "title": "Webpack",
+  "description": "Webpack is a module bundler tool, that generates your assets with the modules required in order. It can make use of AMD-compliant, CommonJs-compliant modules, ES6 modules, script-tags and custom-defined bundles. There are costumization options for many of the aspects of the generated assets, as well as pre-processing files before bundling in.",
+  "links": [
+    { "name": "Homepage", "href": "https://webpack.github.io/" }
+  ],
+  "examples": [
+  ]
+}

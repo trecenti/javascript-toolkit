@@ -1,0 +1,9 @@
+{
+  "title": "RequireJS",
+  "description": "RequireJS is a AMD-complient module loader, allowing you to declare dependencies between modules and providing them on the correct dependency order.",
+  "links": [
+    { "name": "Homepage", "href": "http://requirejs.org/" }
+  ],
+  "examples": [
+  ]
+}
