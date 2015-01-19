@@ -1,11 +1,10 @@
 {
   "title": "Prototype",
-  "description": "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille, salami pastrami filet mignon pork belly ribeye. Capicola meatloaf frankfurter shankle andouille. Prosciutto ribeye ham hock salami turkey frankfurter tail beef bacon filet mignon pork. Boudin pancetta jowl, bresaola rump ribeye jerky pork chop andouille shoulder chicken. Bresaola short loin meatball jowl.",
+  "description": "One of the first Javascript utility libraries, it extends DOM and provide useful functionalities for the Javascript developer. Along with jQuery, Prototype.js helped shape most of what we see in the Javascript community nowadays.",
   "links": [
-    { "name": "Homepage", "href": "http://prototypejs.org/" }
+    { "name": "Homepage", "href": "http://prototypejs.org/" },
+    { "name": "Github", "href": "https://github.com/sstephenson/prototype/" }
   ],
   "examples": [
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille",
-    "Bacon ipsum dolor sit amet strip steak shank capicola ham andouille"
   ]
 }
