@@ -1,0 +1,9 @@
+{
+  "title": "Async",
+  "description": "Async is an utility library that provide asynchronous functions to control flow, to make it easier to deal with callback-oriented program execution.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/caolan/async" }
+  ],
+  "examples": [
+  ]
+}
