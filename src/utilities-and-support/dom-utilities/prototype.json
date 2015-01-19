@@ -1,6 +1,6 @@
 {
   "title": "Prototype",
-  "description": "One of the first Javascript utility libraries, it extends DOM and provide useful functionalities for the Javascript developer. Along with jQuery, Prototype.js helped shape most of what we see in the Javscript community nowadays.",
+  "description": "One of the first Javascript utility libraries, it extends DOM and provide useful functionalities for the Javascript developer. Along with jQuery, Prototype.js helped shape most of what we see in the Javascript community nowadays.",
   "links": [
     { "name": "Homepage", "href": "http://prototypejs.org/" },
     { "name": "Github", "href": "https://github.com/sstephenson/prototype/" }
