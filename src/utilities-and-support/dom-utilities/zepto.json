@@ -1,6 +1,6 @@
 {
-  "title": "Zepto JS",
-  "description": "Zepto is a library very similar to jQuery, although it's very small and focused on modern browsers only.",
+  "title": "Zepto",
+  "description": "Zepto is a library very similar to jQuery, although it's very small and focused on modern browsers only. It focus on having a small footprint in order to be faster on mobile devices as well.",
   "links": [
     { "name": "Homepage", "href": "http://zeptojs.com/" }
   ],
