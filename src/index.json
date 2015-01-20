@@ -176,13 +176,12 @@
             { "title": "Lo-Dash" },
             { "title": "Underscore" },
             { "title": "fn.js" },
-            { "title": "q.js" },
+            { "title": "Q js" },
             { "title": "Bacon JS" },
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
             { "title": "Moment JS" },
-            { "title": "Async" },
-            { "title": "Micro JS" }
+            { "title": "Async" }
           ]
         }
       ]
