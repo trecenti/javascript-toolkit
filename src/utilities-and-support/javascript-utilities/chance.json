@@ -1,6 +1,6 @@
 {
   "title": "Chance JS",
-  "description": "Chance is a minimalist library for generating random data.",
+  "description": "Chance is a minimalist library for random data generation.",
   "links": [
     { "name": "Homepage", "href": "http://chancejs.com/" }
   ],
