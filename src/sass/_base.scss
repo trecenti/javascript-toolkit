@@ -63,6 +63,14 @@ body > header {
       vertical-align: middle;
       width: $icons-medium;
     }
+
+    .category {
+      &:before {
+        content: ' | ';
+        color: $grey;
+      }
+      color: $cool-sky-blue;
+    }
   }
 }
 

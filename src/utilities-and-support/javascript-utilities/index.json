@@ -1,4 +1,5 @@
 {
+  "category": "Utilities & Support",
   "title": "JavaScript Utilities",
   "description": "JavaScript Utilities are libraries that facilitate specific task, like random number generation, managing deferred execution flow or dealing with time, which are nice additions that don't come with the native JavaScript environment."
 }
