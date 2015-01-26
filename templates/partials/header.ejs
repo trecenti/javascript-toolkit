@@ -4,5 +4,8 @@
       <img src="/images/js-toolkit-logo.png" />
       <span>JavaScript Toolkit</span>
     </a>
+    <% if (locals.category) { %>
+      <a class="category" href="/#<%=: category | id %>"><%= category %></a>
+    <% } %>
   </h1>
 </header>
