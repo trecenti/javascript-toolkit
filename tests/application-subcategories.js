@@ -5,7 +5,7 @@ module.exports = {
       .waitForElementVisible("body", 500)
       .click('a[href*="application-frameworks"]')
       .waitForElementVisible("body", 500)
-      .assert.title('Javascript Toolkit - Application Frameworks')
+      .assert.title('JavaScript Toolkit - Application Frameworks')
       .end();
   },
   "Application Utilities": function (browser) {
@@ -14,7 +14,7 @@ module.exports = {
       .waitForElementVisible("body", 500)
       .click('a[href*="application-utilities"]')
       .waitForElementVisible("body", 500)
-      .assert.title('Javascript Toolkit - Application Utilities')
+      .assert.title('JavaScript Toolkit - Application Utilities')
       .end();
   },
   "Dynamic Loading": function (browser) {
@@ -23,7 +23,7 @@ module.exports = {
       .waitForElementVisible("body", 500)
       .click('a[href*="dynamic-loading"]')
       .waitForElementVisible("body", 500)
-      .assert.title('Javascript Toolkit - Dynamic Loading')
+      .assert.title('JavaScript Toolkit - Dynamic Loading')
       .end();
   }
 };
