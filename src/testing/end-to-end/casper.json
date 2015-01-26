@@ -1,6 +1,6 @@
 {
   "title": "Casper JS",
-  "description": "CasperJS is an open source navigation scripting & testing utility written in Javascript for PhantomJS and SlimmerJS.",
+  "description": "CasperJS is an open source navigation scripting & testing utility written in JavaScript for PhantomJS and SlimmerJS.",
   "links": [
     { "name": "Homepage", "href": "http://casperjs.org/" }
   ],

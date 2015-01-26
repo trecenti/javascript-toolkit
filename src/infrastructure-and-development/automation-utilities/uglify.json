@@ -1,6 +1,6 @@
 {
   "title": "UglifyJS",
-  "description": "UglifyJS is a tool to compress and minify your javascript source files, to produce optmized assets",
+  "description": "UglifyJS is a tool to compress and minify your JavaScript source files, to produce optmized assets",
   "links": [
     { "name": "Homepage", "href": "https://github.com/mishoo/UglifyJS2" }
   ],

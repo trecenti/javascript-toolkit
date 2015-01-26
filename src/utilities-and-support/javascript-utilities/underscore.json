@@ -1,6 +1,6 @@
 {
   "title": "Underscore",
-  "description": "Underscore provides over 100 functions that support both your favorite workaday functional helpers: map, filter, invoke — as well as more specialized goodies: function binding, javascript templating, creating quick indexes, deep equality testing, and so on.",
+  "description": "Underscore provides over 100 functions that support both your favorite workaday functional helpers: map, filter, invoke — as well as more specialized goodies: function binding, JavaScript templating, creating quick indexes, deep equality testing, and so on.",
   "links": [
     { "name": "Homepage", "href": "http://underscorejs.org/" }
   ],
