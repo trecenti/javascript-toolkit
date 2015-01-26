@@ -1,4 +1,4 @@
 {
   "title": "Automation",
-  "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the javascript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation."
+  "description": "The day of manually testing, building and publishing your applications are long gone (if they ever existed). Application development is getting complex, and each of its phases, from conception to delivery, is full of subparts. In the JavaScript world, several tools must be played interwined, to test, assembly, compile, minify, lint and deliver your code. That is why you need automation."
 }

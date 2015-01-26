@@ -170,7 +170,7 @@
           ]
         },
         {
-          "title": "Javascript Utilities",
+          "title": "JavaScript Utilities",
           "href": "javascript-utilities",
           "tools": [
             { "title": "Lo-Dash" },

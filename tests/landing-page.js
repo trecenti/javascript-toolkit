@@ -3,7 +3,7 @@ module.exports = {
     browser
       .url(browser.launchUrl)
       .waitForElementVisible("body", 1000)
-      .assert.title("Javascript Toolkit")
+      .assert.title("JavaScript Toolkit")
       .end();
   }
 };

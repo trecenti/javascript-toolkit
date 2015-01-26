@@ -1,6 +1,6 @@
 {
   "title": "Q js",
-  "description": "A tool for creating and dealing with asynchronous promises in Javascript. Q implements Promises/A+ standard.",
+  "description": "A tool for creating and dealing with asynchronous promises in JavaScript. Q implements Promises/A+ standard.",
   "links": [
     { "name": "Homepage", "href": "https://github.com/kriskowal/q" }
   ],

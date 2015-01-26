@@ -1,6 +1,6 @@
 {
   "title": "jQuery",
-  "description": "jQuery is set of Javascript utilities that helps the interaction with the DOM and other browser functionalities, it excels in browser compatibility as it support several browsers.",
+  "description": "jQuery is set of JavaScript utilities that helps the interaction with the DOM and other browser functionalities, it excels in browser compatibility as it support several browsers.",
   "links": [
     { "name": "Homepage", "href": "http://jquery.com/" }
   ],
