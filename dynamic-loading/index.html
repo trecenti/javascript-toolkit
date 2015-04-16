@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="/stylesheets/category.css" rel="stylesheet" type="text/css" />
+  <title>JavaScript Toolkit - Dynamic Loading</title>
+</head>
+
+<body>
+  <header>
+    <h1>
+    <a href="/">
+      <img src="/images/js-toolkit-logo.png" />
+      <span>JavaScript Toolkit</span>
+    </a>
+    
+      <a class="category" href="/#application-&amp;-product">Application &amp; Product</a>
+    
+  </h1> </header>
+  <main>
+    <section>
+      <h1>Dynamic Loading</h1>
+      <p>Sometimes your dependencies could be loaded after the page already has some JavaScript enabled behaviours, letting the user interact with the application while
+        you retrieve the remaining code on the background. This is what the Dynamic Loading libraries provide you.</p>
+    </section>
+    <section>
+      <a id="browserify"></a>
+      <header>
+        <h2>Browserify</h2>
+        <p>Browserify lets you load modules by bundling the dependencies in the required order, producing a customized JavaScript asset. It can require CommonJs-compliant
+          modules, and with the help of &lt;a href=&#39;https://www.npmjs.com/package/browserify-shim&#39;&gt;browserify-shim&lt;/a&gt; non-Commonjs modules (like
+          AMD and global scripts).</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="http://browserify.org/" target="_blank">http://browserify.org/</a> </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <a id="curl.js"></a>
+      <header>
+        <h2>curl.js</h2>
+        <p>curl.js is a small library to load AMD-compliant modules asynchronously, requesting the files as they depend on each other.</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="https://github.com/cujojs/curl" target="_blank">https://github.com/cujojs/curl</a> </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <a id="requirejs"></a>
+      <header>
+        <h2>RequireJS</h2>
+        <p>RequireJS is a AMD-compliant module loader, allowing you to declare dependencies between modules and providing them on the correct dependency order.</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="http://requirejs.org/" target="_blank">http://requirejs.org/</a> </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <a id="webpack"></a>
+      <header>
+        <h2>Webpack</h2>
+        <p>Webpack is a module bundler tool, that generates your assets with the modules required in order. It can make use of AMD-compliant, CommonJs-compliant modules,
+          ES6 modules, script-tags and custom-defined bundles. There are costumization options for many of the aspects of the generated assets, as well as pre-processing
+          files before bundling in.</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="https://webpack.github.io/" target="_blank">https://webpack.github.io/</a> </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer> Copyright © JavaScript Toolkit 2014-2015 All Rights Reserved. </footer>
+</body>
+
+</html>
