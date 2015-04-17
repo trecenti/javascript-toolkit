@@ -1,4 +1,4 @@
-# Javascript Toolkit WebSite [![Build Status](https://snap-ci.com/po7TJ-F5U3JKdptgGovy_RMAP5KBFfU0-NKrFjnBtlw/build_image)](https://snap-ci.com/ThoughtWorksInc/js-toolkit/branch/master)
+# Javascript Toolkit WebSite [![Build Status](https://snap-ci.com/u0q-pWK3MpXCrxJpr84gJQizhRQHHSHA762_g6sBQzM/build_image)](https://snap-ci.com/trecenti/javascript-toolkit/branch/master)
 
 Source code repository for [javascript-toolkit.com](http://javascript-toolkit.com)
 
