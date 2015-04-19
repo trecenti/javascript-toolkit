@@ -1,0 +1,9 @@
+{
+  "title": "Lazy.js",
+  "description": "Lazy.js is a functional library similar to Underscore's API, with the computations lazily evaluated when the values are needed.",
+  "links": [
+    { "name": "Homepage", "href": "http://danieltao.com/lazy.js/" }
+  ],
+  "examples": [
+  ]
+}
