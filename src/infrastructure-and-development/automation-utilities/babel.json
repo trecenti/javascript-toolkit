@@ -1,0 +1,9 @@
+{
+  "title": "Babel",
+  "description": "Babel is JavaScript compiler that enables you write modern ES6 and extends to enable other transformations, like JSX.",
+  "links": [
+    { "name": "Homepage", "href": "https://babeljs.io/" }
+  ],
+  "examples": [
+  ]
+}

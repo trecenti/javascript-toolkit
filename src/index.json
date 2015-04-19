@@ -84,6 +84,7 @@
           "href": "automation-utilities",
           "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
           "tools": [
+            { "title": "Babel" },
             { "title": "UglifyJS" },
             { "title": "JSLint" },
             { "title": "JSHint" },
