@@ -1,0 +1,8 @@
+{
+  "title": "Flight",
+  "description": "Flight.js is a event-driven web framework, create by Twitter Inc. It excels in building components using native DOM structures which benefits the structure and allows flexibility for the developers to build their apps.",
+  "links": [
+    { "name": "Homepage", "href": "http://flightjs.github.io/" }
+  ],
+  "examples": [ ]
+}

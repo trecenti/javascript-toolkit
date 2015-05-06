@@ -1,0 +1,8 @@
+{
+  "title": "Meteor",
+  "description": "Meteor is a full-stack web framework, that aids in rapid application development across web and mobile. A great option for applications requires responsiveness, specially mobile web applications.",
+  "links": [
+    { "name": "Homepage", "href": "https://www.meteor.com/" }
+  ],
+  "examples": [ ]
+}
