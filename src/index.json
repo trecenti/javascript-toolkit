@@ -172,7 +172,7 @@
           "title": "DOM Utilities",
           "href": "dom-utilities",
           "tools": [
-            { "title": "JQuery" },
+            { "title": "jQuery" },
             { "title": "Zepto" },
             { "title": "Polymer" },
             { "title": "Prototype" }
@@ -197,7 +197,8 @@
           "tools": [
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
-            { "title": "Moment.js" }
+            { "title": "Moment.js" },
+            { "title": "sweet.js" }
           ]
         }
       ]
