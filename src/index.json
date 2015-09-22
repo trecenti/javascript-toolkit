@@ -179,19 +179,25 @@
           ]
         },
         {
-          "title": "JavaScript Utilities",
-          "href": "javascript-utilities",
+          "title": "Data Flow and Manipulation",
+          "href": "data-flow-and-manipulation",
           "tools": [
             { "title": "Lo-Dash" },
-            { "title": "Lazy.js" },
             { "title": "Underscore" },
+            { "title": "Lazy.js" },
             { "title": "fn.js" },
             { "title": "Q js" },
             { "title": "Bacon JS" },
+            { "title": "Async" }
+          ]
+        },
+        {
+          "title": "JavaScript Utilities",
+          "href": "javascript-utilities",
+          "tools": [
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
-            { "title": "Moment.js" },
-            { "title": "Async" }
+            { "title": "Moment.js" }
           ]
         }
       ]
