@@ -188,6 +188,7 @@
           "tools": [
             { "title": "Ramda" },
             { "title": "RxJS" },
+            { "title": "Immutable" },
             { "title": "Lo-Dash" },
             { "title": "Underscore" },
             { "title": "Lazy.js" },

@@ -1,0 +1,9 @@
+{
+  "title": "Immutable",
+  "description": "Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
+  "links": [
+    { "name": "Homepage", "href": "http://facebook.github.io/immutable-js/" }
+  ],
+  "examples": [
+  ]
+}
