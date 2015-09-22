@@ -1,5 +1,0 @@
-{
-  "category": "Application & Product",
-  "title": "Dynamic Loading",
-  "description": "Sometimes your dependencies could be loaded after the page already has some JavaScript enabled behaviours, letting the user interact with the application while you retrieve the remaining code on the background. This is what the Dynamic Loading libraries provide you."
-}

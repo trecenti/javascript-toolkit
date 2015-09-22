@@ -144,8 +144,8 @@
           ]
         },
         {
-          "title": "Dynamic Loading",
-          "href": "dynamic-loding",
+          "title": "Dependency Loading",
+          "href": "dependency-loding",
           "tools": [
             { "title": "Browserify" },
             { "title": "RequireJS" },
