@@ -1,6 +1,6 @@
 {
   "title": "Browserify",
-  "description": "Browserify lets you load modules by bundling the dependencies in the required order, producing a customized JavaScript asset. It can require CommonJs-compliant modules, and with the help of <a href='https://www.npmjs.com/package/browserify-shim'>browserify-shim</a> non-Commonjs modules (like AMD and global scripts).",
+  "description": "Browserify lets you load modules by bundling the dependencies in the required order, producing a customized JavaScript asset. It can require CommonJs-compliant modules, and with the help of browserify-shim non-Commonjs modules (like AMD and global scripts).",
   "links": [
     { "name": "Homepage", "href": "http://browserify.org/" }
   ],
