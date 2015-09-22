@@ -62,7 +62,7 @@ We're using nightwatch to create end-2-end functional UI tests, we should write 
 ## Environment & Deploys
 
 ### Production
-We're using Github Pages to host the website, deploys to production are manually triggered from [Snap-ci](https://snap-ci.com/ThoughtWorksInc/js-toolkit/branch/master), we plan to automate this once we have a release.
+We're using Github Pages to host the website, deploys to production are manually triggered from [Snap-ci](https://snap-ci.com/trecenti/javascript-toolkit/branch/master).
 
 ### Staging
 We have a staging environment hosted [heroku](http://staging-js-toolkit.herokuapp.com), every merge to master will deploy a new version of the app to this env.
