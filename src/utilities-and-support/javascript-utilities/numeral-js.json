@@ -1,0 +1,9 @@
+{
+  "title": "Numeral.js",
+  "description": "A javascript library for formatting and manipulating numbers.",
+  "links": [
+    { "name": "Homepage", "href": "http://numeraljs.com/" }
+  ],
+  "examples": [
+  ]
+}

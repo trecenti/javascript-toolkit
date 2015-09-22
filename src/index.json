@@ -205,6 +205,8 @@
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
             { "title": "Moment.js" },
+            { "title": "money.js" },
+            { "title": "Numeral.js" },
             { "title": "sweet.js" }
           ]
         }
