@@ -82,9 +82,10 @@
         {
           "title": "Automation Utilities",
           "href": "automation-utilities",
-          "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
+          "subtitle": "Watch, lint, minify, optimize, concat... and lots of other help to your development and code.",
           "tools": [
             { "title": "Babel" },
+            { "title": "Closure Compiler" },
             { "title": "UglifyJS" },
             { "title": "JSLint" },
             { "title": "JSHint" },
@@ -148,6 +149,7 @@
           "href": "dependency-loding",
           "tools": [
             { "title": "Browserify" },
+            { "title": "Closure Compiler" },
             { "title": "RequireJS" },
             { "title": "script.js" },
             { "title": "SystemJS" },

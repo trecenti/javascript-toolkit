@@ -1,0 +1,9 @@
+{
+  "title": "Closure Compiler",
+  "description": "Closure Compiler bundles and minify your JavaScript with type annotations, allowing bad code elimination and other optimizations. It also let you create separate bundled files to load asynchronously when your app needs, instead of just loading a big single file on the client.",
+  "links": [
+    { "name": "Homepage", "href": "https://developers.google.com/closure/compiler/" }
+  ],
+  "examples": [
+  ]
+}
