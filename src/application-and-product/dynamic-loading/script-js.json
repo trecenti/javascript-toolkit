@@ -1,0 +1,9 @@
+{
+  "title": "script.js",
+  "description": "Async JavaScript loader & dependency manager",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/ded/script.js" }
+  ],
+  "examples": [
+  ]
+}

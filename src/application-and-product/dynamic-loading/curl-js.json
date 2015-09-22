@@ -1,9 +1,0 @@
-{
-  "title": "curl.js",
-  "description": "curl.js is a small library to load AMD-compliant modules asynchronously, requesting the files as they depend on each other.",
-  "links": [
-    { "name": "Homepage", "href": "https://github.com/cujojs/curl" }
-  ],
-  "examples": [
-  ]
-}

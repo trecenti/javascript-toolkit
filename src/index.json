@@ -149,7 +149,7 @@
           "tools": [
             { "title": "Browserify" },
             { "title": "RequireJS" },
-            { "title": "curl.js" },
+            { "title": "script.js" },
             { "title": "Webpack" }
           ]
         }
