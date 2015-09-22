@@ -81,3 +81,22 @@ There's a helper that builds and publish.
 npm run buildAndPublish
 ```
 
+## Contributing
+
+The Javascript Toolkit initiative is a open source informational webpage. We want it to be a guide and reference the community in regards to the tools, frameworks and technology that has be used with success in modern Javascript projects. 
+
+So if you have had a good experience with a Javascript framework, please let us know. Before anything gets into the radar we want it to be pitched and discussed by the community.
+
+Here are some guildelines on how to contribute:
+
+1. Check if the tool, framework or technology you're pitching is already in the toolkit.
+
+2. Check if there's a pitch already for the tool, our Labels can help filtering if needed.
+
+3. Create a new Issue if step 1 && 2 results `false`
+
+4. Give a good description, with your experience with the tool, Label it if possible.
+
+5. Once enough people (still TBD) have vouched for it to be in the js toolkit, it will be added to the toolkit.
+
+We welcome any contribution, we are very thankful for it as well!
