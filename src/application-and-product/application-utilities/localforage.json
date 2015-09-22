@@ -1,0 +1,10 @@
+
+{
+  "title": "localForage",
+  "description": "Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.",
+  "links": [
+    { "name": "Homepage", "href": "http://mozilla.github.io/localForage/" }
+  ],
+  "examples": [
+  ]
+}

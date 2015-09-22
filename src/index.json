@@ -141,6 +141,7 @@
           "title": "Application Utilities",
           "href": "application-utilities",
           "tools": [
+            { "title": "localForage" },
             { "title": "Page.js" },
             { "title": "Director" },
             { "title": "Crossroads.js" },
