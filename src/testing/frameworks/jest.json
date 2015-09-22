@@ -1,0 +1,9 @@
+{
+  "title": "Jest",
+  "description": "Painless JavaScript Unit Testing built on top of the Jasmine test framework.",
+  "links": [
+    { "name": "Homepage", "href": "https://facebook.github.io/jest/" }
+  ],
+  "examples": [
+  ]
+}
