@@ -46,7 +46,9 @@
             { "title": "Phantom JS" },
             { "title": "Zombie JS" },
             { "title": "Sinon JS" },
-            { "title": "Chai" }
+            { "title": "Chai" },
+            { "title": "Istanbul" },
+            { "title": "Blanket" }
           ]
         }
       ]
