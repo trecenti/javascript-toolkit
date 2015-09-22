@@ -1,0 +1,9 @@
+{
+  "title": "SystemJS",
+  "description": "AMD, CJS & ES6 spec-compliant module loader.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/systemjs/systemjs" }
+  ],
+  "examples": [
+  ]
+}
