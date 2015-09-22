@@ -75,7 +75,8 @@
           "tools": [
             { "title": "Grunt" },
             { "title": "Gulp" },
-            { "title": "Broccoli" }
+            { "title": "Broccoli" },
+            { "title": "Brunch" }
           ]
         },
         {
