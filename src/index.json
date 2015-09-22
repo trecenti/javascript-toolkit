@@ -177,7 +177,9 @@
             { "title": "Polymer" },
             { "title": "Prototype" },
             { "title": "Mustache" },
-            { "title": "Handlebars" }
+            { "title": "Handlebars" },
+            { "title": "D3" },
+            { "title": "three.js" }
           ]
         },
         {

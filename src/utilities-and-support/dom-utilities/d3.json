@@ -1,0 +1,9 @@
+{
+  "title": "D3",
+  "description": "D3 is a JavaScript visualization library for HTML and SVG, it lets you create things like graphs, charts, diagrams, maps and so on.",
+  "links": [
+    { "name": "Homepage", "href": "http://d3js.org/" }
+  ],
+  "examples": [
+  ]
+}
