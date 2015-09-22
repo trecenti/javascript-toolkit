@@ -90,6 +90,7 @@
             { "title": "Babel" },
             { "title": "Closure Compiler" },
             { "title": "UglifyJS" },
+            { "title": "ESLint" },
             { "title": "JSLint" },
             { "title": "JSHint" },
             { "title": "Watch" }
