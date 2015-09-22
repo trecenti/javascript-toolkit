@@ -1,0 +1,9 @@
+{
+  "title": "Mustache",
+  "description": "Minimal templating with {{mustaches}} in JavaScript.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/janl/mustache.js" }
+  ],
+  "examples": [
+  ]
+}
