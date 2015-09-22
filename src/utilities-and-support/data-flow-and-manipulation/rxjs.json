@@ -1,0 +1,9 @@
+{
+  "title": "RxJS",
+  "description": "The Reactive Extensions for JavaScript is a set of libraries to compose asynchronous and event-based programs using observable collections and arrays composition in JavaScript.",
+  "links": [
+    { "name": "Homepage", "href": "https://github.com/Reactive-Extensions/RxJS" }
+  ],
+  "examples": [
+  ]
+}
