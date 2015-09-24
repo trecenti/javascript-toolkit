@@ -1,0 +1,9 @@
+{
+  "title": "money.js",
+  "description": "Simple JavaScript currency conversion library with no dependencies, in just over 1 kb.",
+  "links": [
+    { "name": "Homepage", "href": "http://openexchangerates.github.io/money.js/" }
+  ],
+  "examples": [
+  ]
+}

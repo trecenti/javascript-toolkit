@@ -1,0 +1,9 @@
+{
+  "title": "Handlebars",
+  "description": "An extension to the Mustache templating language, Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.",
+  "links": [
+    { "name": "Homepage", "href": "http://handlebarsjs.com/" }
+  ],
+  "examples": [
+  ]
+}

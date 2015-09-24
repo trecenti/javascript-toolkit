@@ -22,6 +22,7 @@
           "href": "frameworks",
           "tools": [
             { "title": "Jasmine" },
+            { "title": "Jest" },
             { "title": "Mocha" },
             { "title": "QUnit" }
           ]
@@ -45,7 +46,9 @@
             { "title": "Phantom JS" },
             { "title": "Zombie JS" },
             { "title": "Sinon JS" },
-            { "title": "Chai" }
+            { "title": "Chai" },
+            { "title": "Istanbul" },
+            { "title": "Blanket" }
           ]
         }
       ]
@@ -76,16 +79,18 @@
             { "title": "Grunt" },
             { "title": "Gulp" },
             { "title": "Broccoli" },
-            { "title": "Make" }
+            { "title": "Brunch" }
           ]
         },
         {
           "title": "Automation Utilities",
           "href": "automation-utilities",
-          "subtitle": "Watch, lint, minify, concat... and lots of other help to your development and code.",
+          "subtitle": "Watch, lint, minify, optimize, concat... and lots of other help to your development and code.",
           "tools": [
             { "title": "Babel" },
+            { "title": "Closure Compiler" },
             { "title": "UglifyJS" },
+            { "title": "ESLint" },
             { "title": "JSLint" },
             { "title": "JSHint" },
             { "title": "Watch" }
@@ -129,14 +134,14 @@
             { "title": "Meteor" },
             { "title": "Component JS" },
             { "title": "Knockout" },
-            { "title": "React" },
-            { "title": "Google Closure" }
+            { "title": "React" }
           ]
         },
         {
           "title": "Application Utilities",
           "href": "application-utilities",
           "tools": [
+            { "title": "localForage" },
             { "title": "Page.js" },
             { "title": "Director" },
             { "title": "Crossroads.js" },
@@ -144,12 +149,14 @@
           ]
         },
         {
-          "title": "Dynamic Loading",
-          "href": "dynamic-loding",
+          "title": "Dependency Loading",
+          "href": "dependency-loding",
           "tools": [
             { "title": "Browserify" },
+            { "title": "Closure Compiler" },
             { "title": "RequireJS" },
-            { "title": "curl.js" },
+            { "title": "script.js" },
+            { "title": "SystemJS" },
             { "title": "Webpack" }
           ]
         }
@@ -166,26 +173,42 @@
           "title": "DOM Utilities",
           "href": "dom-utilities",
           "tools": [
-            { "title": "JQuery" },
+            { "title": "jQuery" },
             { "title": "Zepto" },
             { "title": "Polymer" },
-            { "title": "Prototype" }
+            { "title": "Prototype" },
+            { "title": "Mustache" },
+            { "title": "Handlebars" },
+            { "title": "D3" },
+            { "title": "three.js" }
+          ]
+        },
+        {
+          "title": "Data Flow and Manipulation",
+          "href": "data-flow-and-manipulation",
+          "tools": [
+            { "title": "Ramda" },
+            { "title": "RxJS" },
+            { "title": "Immutable" },
+            { "title": "Lo-Dash" },
+            { "title": "Underscore" },
+            { "title": "Lazy.js" },
+            { "title": "fn.js" },
+            { "title": "Q js" },
+            { "title": "Bacon JS" },
+            { "title": "Async" }
           ]
         },
         {
           "title": "JavaScript Utilities",
           "href": "javascript-utilities",
           "tools": [
-            { "title": "Lo-Dash" },
-            { "title": "Lazy.js" },
-            { "title": "Underscore" },
-            { "title": "fn.js" },
-            { "title": "Q js" },
-            { "title": "Bacon JS" },
             { "title": "Chance JS" },
             { "title": "Sugar JS" },
             { "title": "Moment.js" },
-            { "title": "Async" }
+            { "title": "money.js" },
+            { "title": "Numeral.js" },
+            { "title": "sweet.js" }
           ]
         }
       ]

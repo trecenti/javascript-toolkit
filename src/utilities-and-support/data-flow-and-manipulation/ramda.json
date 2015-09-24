@@ -1,0 +1,9 @@
+{
+  "title": "Ramda",
+  "description": "A practical functional library designed specifically for a functional programming style, that makes it easy to create functional pipelines, and never mutates user data.",
+  "links": [
+    { "name": "Homepage", "href": "http://ramdajs.com/" }
+  ],
+  "examples": [
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Blanket",
+  "description": "blanket.js is a simple code coverage library for javascript. Designed to be easy to install and use, for both browser and nodejs.",
+  "links": [
+    { "name": "Homepage", "href": "http://blanketjs.org/" }
+  ],
+  "examples": [
+  ]
+}

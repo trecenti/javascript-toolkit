@@ -1,0 +1,5 @@
+{
+  "category": "Data Flow & Manipulation",
+  "title": "JavaScript Utilities",
+  "description": "Libraries to transform data and handle its flow, with promises, streams or other async functions, using reactivity and functional programming approaches."
+}
