@@ -19,7 +19,7 @@
     ga('send', 'pageview');
   </script>
   <link href="/stylesheets/category.css" rel="stylesheet" type="text/css" />
-  <title>JavaScript Toolkit - Dynamic Loading</title>
+  <title>JavaScript Toolkit - Dependency Loading</title>
 </head>
 
 <body>
@@ -37,17 +37,15 @@
   </header>
   <main>
     <section>
-      <h1>Dynamic Loading</h1>
-      <p>Sometimes your dependencies could be loaded after the page already has some JavaScript enabled behaviours, letting the user interact with the application while
-        you retrieve the remaining code on the background. This is what the Dynamic Loading libraries provide you.</p>
+      <h1>Dependency Loading</h1>
+      <p>Tools that enable your JavaScript files to import other modules, either dynamically or on build-time.</p>
     </section>
     <section>
       <a id="browserify"></a>
       <header>
         <h2>Browserify</h2>
         <p>Browserify lets you load modules by bundling the dependencies in the required order, producing a customized JavaScript asset. It can require CommonJs-compliant
-          modules, and with the help of &lt;a href=&#39;https://www.npmjs.com/package/browserify-shim&#39;&gt;browserify-shim&lt;/a&gt; non-Commonjs modules (like
-          AMD and global scripts).</p>
+          modules, and with the help of browserify-shim non-Commonjs modules (like AMD and global scripts).</p>
       </header>
       <section>
         <h3>Links</h3>
@@ -58,16 +56,17 @@
       </section>
     </section>
     <section>
-      <a id="curl.js"></a>
+      <a id="closure-compiler"></a>
       <header>
-        <h2>curl.js</h2>
-        <p>curl.js is a small library to load AMD-compliant modules asynchronously, requesting the files as they depend on each other.</p>
+        <h2>Closure Compiler</h2>
+        <p>Closure Compiler bundles and minify your JavaScript with type annotations, allowing bad code elimination and other optimizations. It also let you create
+          separate bundled files to load asynchronously when your app needs, instead of just loading a big single file on the client.</p>
       </header>
       <section>
         <h3>Links</h3>
         <ul>
           <li>
-            <label>Homepage</label> <a href="https://github.com/cujojs/curl" target="_blank">https://github.com/cujojs/curl</a> </li>
+            <label>Homepage</label> <a href="https://developers.google.com/closure/compiler/" target="_blank">https://developers.google.com/closure/compiler/</a> </li>
         </ul>
       </section>
     </section>
@@ -82,6 +81,34 @@
         <ul>
           <li>
             <label>Homepage</label> <a href="http://requirejs.org/" target="_blank">http://requirejs.org/</a> </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <a id="script.js"></a>
+      <header>
+        <h2>script.js</h2>
+        <p>Async JavaScript loader &amp; dependency manager</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="https://github.com/ded/script.js" target="_blank">https://github.com/ded/script.js</a> </li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <a id="systemjs"></a>
+      <header>
+        <h2>SystemJS</h2>
+        <p>AMD, CJS &amp; ES6 spec-compliant module loader.</p>
+      </header>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <label>Homepage</label> <a href="https://github.com/systemjs/systemjs" target="_blank">https://github.com/systemjs/systemjs</a> </li>
         </ul>
       </section>
     </section>
