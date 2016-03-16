@@ -1,5 +1,6 @@
-# Javascript Toolkit WebSite [![Build Status](https://snap-ci.com/u0q-pWK3MpXCrxJpr84gJQizhRQHHSHA762_g6sBQzM/build_image)](https://snap-ci.com/trecenti/javascript-toolkit/branch/master)
+*this project is now dead, for curated lists check [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)*
 
+# Javascript Toolkit WebSite
 
 ## Development
 
